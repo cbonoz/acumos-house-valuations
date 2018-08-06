@@ -1,4 +1,4 @@
-<p align="center" style="margin-bottom: 25px">
+<p align="center" style="margin-bottom: 35px; margin-top: 10px;">
     <img src="assets/assistant_logo.png" width="300"/>
 </p>
 
@@ -102,7 +102,7 @@ The Acumos Property Assistant is exportable and usable in different projects.
 I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies and run this on the command line via `python3 server.py`.
 
 <p align="center">
-    <img src="assets/server.png" width="500"/>
+    <img src="assets/flask.png" width="500"/>
 </p>
 
 You can query the model via a standard post request.
