@@ -35,10 +35,10 @@ The model expects a dataframe of properties to value in the following format.
 </p>
 
 #### Project Details
-[x] Written description of the Submission (must be in English)
-[ ] Summary Video (Must be in English) = 
-[x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
-[x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
-[ ] Documentation (“Documentation”) explaining how to deploy the Submission,
+- [x] Written description of the Submission (must be in English)
+- [ ] Summary Video (Must be in English) = 
+- [x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
+- [x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
+- [ ] Documentation (“Documentation”) explaining how to deploy the Submission,
 how to deploy the demonstration of the Submission, and all supporting toolkits
 and programming languages. 
