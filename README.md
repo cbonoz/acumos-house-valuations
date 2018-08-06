@@ -83,12 +83,48 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
     <img src="assets/model_prediction.png" width="500"/>
 </p>
 
+### Deployment
+
+The model is encapsulated within the acumos_model picked object.
+
+<pre>
+    df = HouseDataFrame(100, 1, 1, 1000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
+    res = pd.DataFrame([df], columns=HouseDataFrame._fields)
+    acumos_model.appraise.inner(df)
+    print("$%.2f" % predict(res)[0])
+</pre>
+
+<p><i>Outputs:</i></p>
+
+<b>$421995.04</b>
+
+The Acumos Property Assistant is exportable and usable in different projects. 
+I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies and run this on the command line via `python3 server.py`.
+
+<p align="center">
+    <img src="assets/server.png" width="500"/>
+</p>
+
+You can query the model via a standard post request.
+
+<p align="center">
+    <img src="assets/response.png" width="500"/>
+</p>
+
+You now have a live server hosting and running the Acumos Property Assistant! You can use this to get property values in any live app!
+<p align="center">
+    <img src="assets/applause.jpg" width="500"/>
+</p>
+
+
+
+
 #### Project Details
 - [x] Written description of the Submission (must be in English)
 - [ ] Summary Video (Must be in English) = 
 - [x] Sample input dataset - `assets/test_data.csv`
 - [x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
 - [x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
-- [ ] Documentation (“Documentation”) explaining how to deploy the Submission,
+- [x] Documentation (“Documentation”) explaining how to deploy the Submission,
 how to deploy the demonstration of the Submission, and all supporting toolkits
 and programming languages. 
