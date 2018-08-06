@@ -92,13 +92,13 @@ The model is encapsulated within the acumos_model picked object.
     res = pd.DataFrame([df], columns=HouseDataFrame._fields)
     acumos_model.appraise.inner(df)
     print("$%.2f" % predict(res)[0])
+
+    # Output:
+    $421995.04
+
 </pre>
 
-<p><i>Outputs:</i></p>
-
-<b>$421995.04</b>
-
-The Acumos Property Assistant is exportable and usable in different projects. 
+The Acumos Property Assistant is contained and can be exported for use in any project.
 I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies and run this on the command line via `python3 server.py`.
 
 <p align="center">
