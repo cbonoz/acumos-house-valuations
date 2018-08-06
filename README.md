@@ -31,6 +31,6 @@ The model expects a dataframe of properties to value in the following format.
 
 #### Running the Model
 <p align="center">
-    <img src="assets/testing_model.png" width="400"/>
+    <img src="assets/model_prediction.png" width="400"/>
 </p>
 
