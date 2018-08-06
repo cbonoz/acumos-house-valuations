@@ -1,4 +1,4 @@
-<p align="center" style="margin-bottom: 10px">
+<p align="center" style="margin-bottom: 25px">
     <img src="assets/assistant_logo.png" width="300"/>
 </p>
 
