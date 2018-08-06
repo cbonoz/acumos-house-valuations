@@ -85,6 +85,10 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 
 ### Deployment
 
+<p align="center">
+    <img src="assets/assistant_banner.png" width="500"/>
+</p>
+
 The model is encapsulated within the acumos_model picked object.
 
 <pre>
