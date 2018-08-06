@@ -5,14 +5,66 @@
 Acumos Property Assistant
 ---
 
-A python-powered machine learning model for determining the valuation of your property - powered by Acumos and sklearn.
+A python-powered machine learning model for determining the valuation of your property - powered by Acumos, Redfin, and sklearn.
 
 This model is already trained on the Boston recently-sold properties in the `assets` folder. Recommend retraining if you want to run the model in your own area.
 
+### Concept
+
+Many real estate agents follow a notion of comps (or comparables) when pricing a home. Problem here is that this is often subject to an individual realtors' biases and often only looks at 2-3 properties in the area as a comparison. There are also many real estate websites (such as Zillow, Redfin, and Trulia) that do property valuations; however, the exact details that go into their pricing models are unclear. This program provides a simple open-source solution that can be easily extended for more niche property value modeling.
+
+The Acumos Property Assistant is a machine learning model deployed on the Acumos store for pricing your home based on fundamental property characteristics.
+
+More specifically, we survey the intrinsic properties of a home, such as number of bathrooms, number of bedrooms, square footage, and location, as sampled from the Redfin website (www.redfin.com), and allow users to price their home using a large dataset of collected properties.
+
+By no means is this an exhaustive model, but should give users as idea of what their home (or someone else's home) is at worth in the current market.
 
 ### Usage
 
-The model expects a dataframe of properties to value in the following format.
+The model expects a dataframe of properties (containing the following list of entries) in the following format:
+
+<pre>
+[
+    ('cost_per_square_feet', List[str]), 
+    ('baths', List[str]), 
+    ('beds', List[str]), 
+    ('square_feet', List[float]), 
+    ('property_type', List[float]), 
+    ('year_built', List[float]), 
+    ('lot_size', List[str]), 
+    ('hoa_per_month', List[float]), 
+    ('days_on_market', List[float]), 
+    ('location', List[float]), 
+    ('state', List[float]), 
+    ('city', List[float])
+]
+</pre>
+
+#### Definitions:
+Units in USD.
+hoa_per_month: Home Owner Association Fees per month
+property_type: One of the following:
+location: city district
+
+<pre>
+{
+    'Condo/Co-op',
+     'Multi-Family (2-4 Unit)',
+     'Multi-Family (5+ Unit)',
+     'Other',
+     'Parking',
+     'Single Family Residential',
+     'Townhouse',
+     'Unknown'
+}
+ </pre>
+
+See `test_data.csv` for an example input, and `predictions.csv` for the example output in the assets folder as an example.
+
+The model on Acumos is currently trained on Boston housing data over the last 3 months, but could easily be retrained to other cities and locations.
+
+
+
 
 ### Correlations of Property Features
 
