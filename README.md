@@ -25,7 +25,6 @@ The model expects a dataframe of properties (containing the following list of en
 
 <pre>
 [
-    ('cost_per_square_feet', List[str]), 
     ('baths', List[str]), 
     ('beds', List[str]), 
     ('square_feet', List[float]), 
@@ -95,7 +94,7 @@ of the user's property based on the provided values.
 The model is encapsulated within the acumos_model picked object.
 
 <pre>
-    df = HouseDataFrame(100, 1, 1, 1000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
+    df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
     res = pd.DataFrame([df], columns=HouseDataFrame._fields)
     acumos_model.appraise.inner(df)
     print("$%.2f" % predict(res)[0])

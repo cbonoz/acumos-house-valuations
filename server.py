@@ -62,7 +62,7 @@ def rename_col(x):
 class RedfinAcumosModel:
     URL_COL = 'URL (SEE http://www.redfin.com/buy-a-home/comparative-market-analysis FOR INFO ON PRICING)'
     DROP_COLS = list(map(rename_col, [URL_COL, 'NEXT OPEN HOUSE START TIME', 'FAVORITE', 'INTERESTED', 'ZIP', 'SALE TYPE',
-                 'NEXT OPEN HOUSE END TIME','STATUS', 'SOLD DATE', 'MLS#',
+                 'NEXT OPEN HOUSE END TIME','STATUS', 'SOLD DATE', 'MLS#', '$/SQUARE_FEET',
                  'SOURCE', 'ADDRESS','LATITUDE','LONGITUDE'])) # 'LISTING ID'
     ENCODED_COLS = list(map(rename_col, ['CITY', 'STATE', 'PROPERTY TYPE', 'LOCATION']))
 
@@ -120,7 +120,8 @@ class RedfinAcumosModel:
     
     def process_data(self, data, training=False):
         # First interpolate on missing values.
-        data = data.interpolate()
+        if training:
+            data = data.interpolate()
             
         # Remove any remaining NaN and standardize string fields.
         data['lot_size'] = data['lot_size'].replace(np.NaN, 0)
@@ -187,11 +188,11 @@ class RedfinAcumosModel:
         # Merge test cols with train_cols
         test_cols = set(test_df.columns.values)
         train_cols = set(self.X.columns.values)
-        print("\n=== Merging Encoded Columns for Training ===\n")
+        # print("\n=== Merging Encoded Columns for Training ===\n")
         needed_cols = train_cols - test_cols
         extra_cols = test_cols - train_cols
-#         print('Train data needs columns: %s' % needed_cols)
-#         print('\nTrain data should remove columns: %s' % extra_cols)
+        # print('Train data needs columns: %s' % needed_cols)
+        # print('\nTrain data should remove columns: %s' % extra_cols)
         if extra_cols:
             test_df = test_df.drop(extra_cols, axis=1)
         if needed_cols: # add the necessary columns to match test set and fill with zeroes
@@ -233,6 +234,7 @@ def reformat_train_data(data):
 def reformat_test_data(data):
     data = data.rename(rename_col, axis='columns')
     data = data.drop(RedfinAcumosModel.DROP_COLS, axis=1)
+    data = data.interpolate()
     return data
 
 
@@ -249,7 +251,7 @@ print(model_cols)
 # print(len(model_cols))
 
 # items is the model_cols list from the previous slide
-items = [('cost_per_square_feet', List[str]), ('baths', List[str]), ('beds', List[str]), ('square_feet', List[float]), ('property_type', List[float]), ('year_built', List[float]), ('lot_size', List[str]), ('hoa_per_month', List[float]), ('days_on_market', List[float]), ('location', List[float]), ('state', List[float]), ('city', List[float])]
+items = [('baths', List[str]), ('beds', List[str]), ('square_feet', List[str]), ('property_type', List[float]), ('year_built', List[float]), ('lot_size', List[float]), ('hoa_per_month', List[str]), ('days_on_market', List[float]), ('location', List[float]), ('state', List[float]), ('city', List[float])]
 
 HouseDataFrame = create_namedtuple('HouseDataFrame', items)
 
@@ -297,15 +299,16 @@ def hello_world():
 def events():
     raw_data = request.data
     data = json.loads(raw_data)
+    print('payload', data)
     
-    house_data = HouseDataFrame(data['cpsf'], data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
+    house_data = HouseDataFrame(data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
                         data['lot_size'], data['hoa'], data['dom'], data['location'], data['state'], data['city'])
     result = acumos_model.appraise.inner(house_data)[0]
-    print('received payload', house_data, 'prediction', result)
+    print('prediction', result)
     return jsonify({'prediction': '$%.2f' % result})
 
-# df = HouseDataFrame(100, 1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
-sample_data = HouseDataFrame(100, 1, 1, 2700, 'Other', 2000, 1000, 
+# df = HouseDataFrame(1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
+sample_data = HouseDataFrame(1, 1, 2700, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
 res1 = acumos_model.appraise.inner(sample_data)[0]
 print('test prediction $%.2f' % res1)
