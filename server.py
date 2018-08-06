@@ -120,8 +120,7 @@ class RedfinAcumosModel:
     
     def process_data(self, data, training=False):
         # First interpolate on missing values.
-        if training:
-            data = data.interpolate()
+        data = data.interpolate()
             
         # Remove any remaining NaN and standardize string fields.
         data['lot_size'] = data['lot_size'].replace(np.NaN, 0)
@@ -188,11 +187,11 @@ class RedfinAcumosModel:
         # Merge test cols with train_cols
         test_cols = set(test_df.columns.values)
         train_cols = set(self.X.columns.values)
-        # print("\n=== Merging Encoded Columns for Training ===\n")
+        print("\n=== Merging Encoded Columns for Training ===\n")
         needed_cols = train_cols - test_cols
         extra_cols = test_cols - train_cols
-        # print('Train data needs columns: %s' % needed_cols)
-        # print('\nTrain data should remove columns: %s' % extra_cols)
+#         print('Train data needs columns: %s' % needed_cols)
+#         print('\nTrain data should remove columns: %s' % extra_cols)
         if extra_cols:
             test_df = test_df.drop(extra_cols, axis=1)
         if needed_cols: # add the necessary columns to match test set and fill with zeroes
@@ -234,9 +233,7 @@ def reformat_train_data(data):
 def reformat_test_data(data):
     data = data.rename(rename_col, axis='columns')
     data = data.drop(RedfinAcumosModel.DROP_COLS, axis=1)
-    data = data.interpolate()
     return data
-
 
 
 train = reformat_train_data(pd.read_csv(REDFIN_TRAIN_CSV))
@@ -266,7 +263,7 @@ redfin.df = df
 redfin.df.info()
 
 def appraise(data: HouseDataFrame) -> List[float]:
-    res = pd.DataFrame([df], columns=HouseDataFrame._fields)
+    res = pd.DataFrame([data], columns=HouseDataFrame._fields)
     return predict(res)
 
 def predict(data):
@@ -301,15 +298,17 @@ def events():
     raw_data = request.data
     data = json.loads(raw_data)
     
-    df = HouseDataFrame(data['cpsf'], data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
+    house_data = HouseDataFrame(data['cpsf'], data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
                         data['lot_size'], data['hoa'], data['dom'], data['location'], data['state'], data['city'])
-    res = acumos_model.appraise.inner(df)[0]
-    print('received payload', data, 'prediction', res)
-    return jsonify({'prediction': '$%.2f' % res})
+    result = acumos_model.appraise.inner(house_data)[0]
+    print('received payload', house_data, 'prediction', result)
+    return jsonify({'prediction': '$%.2f' % result})
 
-df = HouseDataFrame(100, 1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
-res = acumos_model.appraise.inner(df)[0]
-print('test prediction $%.2f' % res)
+# df = HouseDataFrame(100, 1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
+sample_data = HouseDataFrame(100, 1, 1, 2700, 'Other', 2000, 1000, 
+                    1000, 10, 'Malden', 'MA', 'Boston')
+res1 = acumos_model.appraise.inner(sample_data)[0]
+print('test prediction $%.2f' % res1)
 
 if __name__ == '__main__':
       app.run(port=PORT)
