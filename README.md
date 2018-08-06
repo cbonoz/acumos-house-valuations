@@ -16,14 +16,15 @@ The model expects a dataframe of properties to value in the following format.
 
 ### Correlations of Property Features
 
-<p align="center">
 
 #### Full Correlation (All property features and locations/cities).
-<img src="assets/full_corr.png" width="400"/>
+<p align="center">
+    <img src="assets/full_corr.png" width="400"/>
+</p>
 
 #### Partial Correlation (Quantitative metrics only)
-<img src="assets/partial_corr.png" width="400"/>
-
+<p align="center">
+    <img src="assets/partial_corr.png" width="400"/>
 </p>
 
 
