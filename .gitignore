@@ -2,7 +2,7 @@
 *.tex
 .DS_Store
 __pycache__
+Acumos Property Assistant/
 *-model
-Acumos*
 *.zip
 *.html
