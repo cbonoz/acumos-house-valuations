@@ -1,1 +1,5 @@
 .ipynb_checkpoints
+*.tex
+.DS_Store
+*-model
+*.zip
