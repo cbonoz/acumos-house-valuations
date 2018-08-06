@@ -22,9 +22,15 @@ The model expects a dataframe of properties to value in the following format.
     <img src="assets/full_corr.png" width="400"/>
 </p>
 
+
 #### Partial Correlation (Quantitative metrics only)
 <p align="center">
     <img src="assets/partial_corr.png" width="400"/>
 </p>
 
+
+#### Running the Model
+<p align="center">
+    <img src="assets/testing_model.png" width="400"/>
+</p>
 
