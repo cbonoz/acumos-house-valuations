@@ -9,7 +9,7 @@ A python-powered machine learning model for determining the valuation of your pr
 
 This model is already trained on the Boston recently-sold properties in the `assets` folder. Recommend retraining if you want to run the model in your own area.
 
-### Concept
+## Concept
 
 Many real estate agents follow a notion of comps (or comparables) when pricing a home. Problem here is that this is often subject to an individual realtors' biases and often only looks at 2-3 properties in the area as a comparison. There are also many real estate websites (such as Zillow, Redfin, and Trulia) that do property valuations; however, the exact details that go into their pricing models are unclear. This program provides a simple open-source solution that can be easily extended for more niche property value modeling.
 
@@ -19,7 +19,7 @@ More specifically, we survey the intrinsic properties of a home, such as number 
 
 By no means is this an exhaustive model, but should give users as idea of what their home (or someone else's home) is at worth in the current market.
 
-### Usage
+## Usage
 
 The model expects a dataframe of properties (containing the following list of entries) in the following format:
 
@@ -41,10 +41,10 @@ The model expects a dataframe of properties (containing the following list of en
 </pre>
 
 #### Definitions:
-Units in USD.
-hoa_per_month: Home Owner Association Fees per month
-property_type: One of the following:
-location: city district
+* Cost units in USD.
+* `hoa_per_month`: Home Owner Association Fees per month
+* `location`: city district
+* `property_type`: One of the following:
 
 <pre>
 {
@@ -89,6 +89,7 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 #### Project Details
 - [x] Written description of the Submission (must be in English)
 - [ ] Summary Video (Must be in English) = 
+- [x] Sample input dataset - `assets/test_data.csv`
 - [x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
 - [x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
 - [ ] Documentation (“Documentation”) explaining how to deploy the Submission,
