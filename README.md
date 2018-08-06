@@ -137,6 +137,8 @@ This container is also usable via docker by downloading the tar file from the Ac
     docker run -p 3330:3330 {CONTAINER_ID}
 </pre>
 
+
+
 This will now expose the port for invocation with the named tuple via the `appraise` method.
 
 Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-challenge-getting-started.html

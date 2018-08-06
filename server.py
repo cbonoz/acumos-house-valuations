@@ -300,11 +300,11 @@ def hello_world():
 def events():
     raw_data = request.data
     data = json.loads(raw_data)
-    print('received payload', data)
     
     df = HouseDataFrame(data['cpsf'], data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
                         data['lot_size'], data['hoa'], data['dom'], data['location'], data['state'], data['city'])
     res = acumos_model.appraise.inner(df)[0]
+    print('received payload', data, 'prediction', res)
     return jsonify({'prediction': '$%.2f' % res})
 
 df = HouseDataFrame(100, 1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
