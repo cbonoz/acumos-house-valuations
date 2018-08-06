@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 *.tex
 .DS_Store
+__pycache__
 *-model
 Acumos*
 *.zip

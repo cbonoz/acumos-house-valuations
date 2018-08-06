@@ -64,10 +64,7 @@ See `test_data.csv` for an example input, and `predictions.csv` for the example 
 The model on Acumos is currently trained on Boston housing data over the last 3 months, but could easily be retrained to other cities and locations.
 
 
-
-
-### Correlations of Property Features
-
+## Correlations of Property Features
 
 #### Full Correlation (All property features and locations/cities).
 <p align="center">
