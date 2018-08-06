@@ -86,8 +86,11 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 ### Deployment
 
 <p align="center">
-    <img src="assets/assistant_banner.png" width="500"/>
+    <img src="assets/website.png" width="500"/>
 </p>
+
+A sample web app is contained within the folder `acumos-assistant`. This app uses the live model to return a price assessment
+of the user's property based on the provided values.
 
 The model is encapsulated within the acumos_model picked object.
 
@@ -120,6 +123,23 @@ You now have a live server hosting and running the Acumos Property Assistant! Yo
     <img src="assets/applause.jpg" width="500"/>
 </p>
 
+#### Running in docker
+
+This container is also usable via docker by downloading the tar file from the Acumos community.
+
+<p align="center">
+    <img src="assets/download.png" width="500"/>
+</p>
+
+<pre>
+    docker load -i acumospropertyassistant_169be6ae-39b0-4368-809e-8ddf3a2248e6_2.tar     
+    docker images # find your container
+    docker run -p 3330:3330 {CONTAINER_ID}
+</pre>
+
+This will now expose the port for invocation with the named tuple via the `appraise` method.
+
+Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-challenge-getting-started.html
 
 
 
