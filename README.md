@@ -19,19 +19,19 @@ The model expects a dataframe of properties to value in the following format.
 
 #### Full Correlation (All property features and locations/cities).
 <p align="center">
-    <img src="assets/full_corr.png" width="400"/>
+    <img src="assets/full_corr.png" width="500"/>
 </p>
 
 
 #### Partial Correlation (Quantitative metrics only)
 <p align="center">
-    <img src="assets/partial_corr.png" width="400"/>
+    <img src="assets/partial_corr.png" width="500"/>
 </p>
 
 
 #### Running the Model
 <p align="center">
-    <img src="assets/model_prediction.png" width="400"/>
+    <img src="assets/model_prediction.png" width="500"/>
 </p>
 
 #### Project Details
