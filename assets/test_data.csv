@@ -1,0 +1,1048 @@
+city,property_type,square_feet,baths,hoa_per_month,lot_size,location,state,beds,cost_per_square_feet,year_built,days_on_market
+Boston,Condo/Co-op,900,1,175,900,Roxbury,MA,2,528,1900,3
+Boston,Condo/Co-op,773,1,200,773,Boston,MA,1,451,1920,3
+Dedham,Single Family Residential,2326,2.5,,6510,Dedham,MA,5,301,2014,4
+Boston,Townhouse,1424,2,234,,West Roxbury,MA,3,456,2015,11
+Boston,Condo/Co-op,845,1,948,174782,Jamaica Plain,MA,1,472,1964,17
+Boston,Townhouse,1676,2.5,171,,Charlestown's Sullivan Square,MA,3,462,2011,26
+Boston,Condo/Co-op,1454,2,294,1454,South Boston,MA,3,536,1890,46
+Boston,Condo/Co-op,817,1.5,218,817,Beacon Hill,MA,1,887,1902,52
+Boston,Condo/Co-op,648,1,404,648,Boston,MA,0,998,2006,54
+Boston,Condo/Co-op,792,1,,,Boston,MA,3,871,1905,3
+Boston,Multi-Family (2-4 Unit),2878,3,,3240,Dorchester's Ashmont,MA,6,344,1900,1
+Boston,Multi-Family (2-4 Unit),3447,3,,3889,Mattapan,MA,6,232,1905,1
+Boston,Condo/Co-op,750,1,310,,Dorchester,MA,2,413,1966,1
+Boston,Condo/Co-op,633,1,175,633,Boston,MA,1,363,1920,1
+Boston,Single Family Residential,2751,2.5,,1710,South Boston,MA,4,454,1890,1
+Boston,Townhouse,2522,3.5,1996,,Waterfront,MA,3,674,1987,1
+Boston,Single Family Residential,1176,2,,7840,Hyde Park's Readville,MA,3,468,1964,1
+Boston,Multi-Family (2-4 Unit),2579,2,,11500,Boston,MA,7,271,1890,2
+Boston,Condo/Co-op,903,1,275,,South Boston,MA,2,841,1930,2
+Boston,Condo/Co-op,680,1,250,,North End,MA,1,866,1910,2
+Boston,Townhouse,1499,2.5,234,,Dorchester,MA,2,506,2018,2
+Boston,Single Family Residential,2744,2.5,,6020,Hyde Park's Readville,MA,4,291,2018,2
+Boston,Single Family Residential,1119,1.5,,850,Boston,MA,2,651,1890,2
+Boston,Multi-Family (2-4 Unit),2134,2,,5004,Jamaica Plain,MA,4,388,1900,2
+Boston,Single Family Residential,1323,1.5,,8114,Boston,MA,3,370,1950,2
+Boston,Condo/Co-op,306,1,227,,The Fenway,MA,0,1533,1910,2
+Boston,Townhouse,1570,2.5,1368,,Jamaica Plain,MA,3,414,1963,2
+Boston,Multi-Family (2-4 Unit),2846,2,,3506,Dorchester's Neponset,MA,5,281,1900,2
+Boston,Parking,,,50,100,South End,MA,,,,2
+Boston,Condo/Co-op,1130,1,1151,,Jamaica Plain,MA,2,468,1963,2
+Boston,Condo/Co-op,1872,1,245,3826,Dorchester,MA,3,347,1900,2
+Boston,Condo/Co-op,1673,2,3543,1673,Back Bay,MA,2,2062,1985,2
+Boston,Condo/Co-op,785,1,510,,Brighton,MA,1,904,2017,2
+Boston,Condo/Co-op,499,1,293,,South End,MA,1,1000,1899,2
+Boston,Single Family Residential,1942,2.5,,3187,Roxbury,MA,5,206,1900,2
+Boston,Multi-Family (2-4 Unit),2394,3,,4123,Boston,MA,7,250,2002,3
+Boston,Condo/Co-op,1638,2,200,1638,Jamaica Plain,MA,2,458,1900,3
+Boston,Condo/Co-op,867,1,341,867,Roslindale,MA,2,322,1930,3
+Boston,Condo/Co-op,483,1,275,483,South End,MA,1,930,1899,3
+Boston,Condo/Co-op,1813,2,253,,Jamaica Plain,MA,3,474,1899,3
+Boston,Condo/Co-op,1254,3,200,1254,Dorchester,MA,3,438,2007,3
+Boston,Condo/Co-op,1172,2,340,,Mission Hill,MA,2,579,2010,3
+Boston,Townhouse,1581,2,398,,South Boston,MA,3,727,2012,3
+Boston,Townhouse,2472,2.5,325,,Jamaica Plain,MA,3,605,1910,3
+Boston,Condo/Co-op,764,2,575,,North End,MA,2,1099,2017,3
+Boston,Townhouse,1746,2.5,225,,Dorchester,MA,3,343,2008,3
+Boston,Single Family Residential,4178,1.5,,8133,Dorchester,MA,10,215,1906,3
+Boston,Single Family Residential,1952,2.5,,2500,Dorchester's Fields Corner,MA,5,332,1920,3
+Boston,Condo/Co-op,740,1,300,,Back Bay,MA,1,1080,1871,3
+Boston,Multi-Family (2-4 Unit),3639,3,,2604,Boston,MA,6,150,1905,3
+Boston,Condo/Co-op,664,1,585,664,North End,MA,1,1047,1890,3
+Boston,Single Family Residential,2639,3.5,,6369,Roslindale,MA,4,435,1933,3
+Boston,Condo/Co-op,1065,1.5,650,,Back Bay,MA,2,891,1890,3
+Brookline,Single Family Residential,3147,3.5,,9999,Brookline,MA,5,476,1896,3
+Brookline,Condo/Co-op,3147,3.5,528,9999,Brookline,MA,5,476,1896,3
+Boston,Condo/Co-op,2322,2,220,6056,Roslindale,MA,4,291,1910,3
+Boston,Condo/Co-op,526,1,276,526,Back Bay,MA,1,1196,1905,3
+Boston,Single Family Residential,957,2.5,,660,Charlestown,MA,2,783,1870,3
+Boston,Single Family Residential,906,1.5,,1000,Charlestown,MA,2,860,1870,3
+Boston,Condo/Co-op,1110,2,326,1110,Boston,MA,2,720,2013,3
+Boston,Condo/Co-op,1983,2,268,1983,Jamaica Plain,MA,3,378,2014,3
+Boston,Single Family Residential,1500,2,,4842,West Roxbury,MA,3,460,1930,3
+Boston,Condo/Co-op,1115,2,741,,Allston,MA,2,870,2017,4
+Boston,Multi-Family (2-4 Unit),2376,5.5,,920,South Boston,MA,4,610,2018,4
+Boston,Condo/Co-op,1370,2,609,1370,South Boston,MA,2,678,2006,4
+Boston,Single Family Residential,1962,1.5,,5636,Fairmount Hill,MA,4,306,1960,4
+Boston,Condo/Co-op,777,1,716,777,Midtown,MA,1,1223,2013,4
+Boston,Multi-Family (2-4 Unit),2992,2,,3799,Dorchester,MA,7,260,1900,4
+Boston,Townhouse,1640,2.5,150,,Boston,MA,2,488,2017,4
+Boston,Multi-Family (2-4 Unit),2300,2,,4493,West Roxbury,MA,4,304,1930,4
+Boston,Multi-Family (2-4 Unit),3468,3,,3717,Dorchester's Ashmont,MA,9,274,1910,4
+Boston,Condo/Co-op,2143,1,750,,South End,MA,2,793,1865,4
+Boston,Townhouse,1638,2,303,,Jamaica Plain,MA,2,421,1986,4
+Boston,Single Family Residential,3000,2.5,,11700,Roslindale,MA,6,300,1910,4
+Boston,Condo/Co-op,624,1,220,624,Roslindale,MA,1,304,1965,4
+Boston,Condo/Co-op,1043,1,233,1043,Dorchester,MA,2,402,1905,4
+Boston,Multi-Family (2-4 Unit),3273,3,,5375,Dorchester,MA,6,241,1990,4
+Boston,Condo/Co-op,1080,2,675,1080,Midtown,MA,2,1079,1968,4
+Boston,Single Family Residential,2359,1,,,Charlestown,MA,4,403,1859,4
+Boston,Condo/Co-op,657,1,364,657,East Boston,MA,1,419,2004,4
+Boston,Condo/Co-op,1235,2,411,1235,South End,MA,1,995,2006,4
+Boston,Condo/Co-op,869,1,222,869,South End,MA,2,988,1899,4
+Boston,Condo/Co-op,1087,1.5,130,1117,South Boston,MA,2,579,1890,4
+Boston,Condo/Co-op,975,2,285,975,South End,MA,2,1123,1935,4
+Boston,Condo/Co-op,1266,2,156,,South Boston,MA,2,628,2018,4
+Boston,Condo/Co-op,2003,2.5,203,,South Boston's City Point,MA,3,824,2017,4
+Boston,Single Family Residential,1440,1.5,,5967,Dorchester's Lower Mills,MA,4,389,1950,4
+Boston,Condo/Co-op,1089,1.5,1581,,Seaport District,MA,1,1832,2019,4
+Boston,Single Family Residential,1238,2,,5198,Oak Square,MA,3,565,1955,4
+Boston,Condo/Co-op,1745,2.5,1885,,Midtown,MA,2,2060,2016,4
+Boston,Condo/Co-op,560,1,197,560,Brighton,MA,1,598,1900,4
+Newton,Single Family Residential,1384,1,,7759,Oak Hill Park,MA,3,483,1946,4
+Boston,Condo/Co-op,1390,2,377,,Back Bay,MA,2,1222,2018,4
+Boston,Single Family Residential,1075,1.5,,6585,Hyde Park's Fairmount,MA,3,405,1947,4
+Boston,Multi-Family (2-4 Unit),2880,3,,3548,Boston,MA,8,325,1920,4
+Boston,Condo/Co-op,2136,3,356,,Boston,MA,3,351,1900,4
+Boston,Single Family Residential,1492,2.5,,680,Boston,MA,2,855,2013,4
+Boston,Multi-Family (2-4 Unit),3774,3,,1718,East Boston's Jeffries Point,MA,9,371,1900,4
+Boston,Condo/Co-op,609,1,373,609,Jamaica Plain,MA,1,616,1929,4
+Boston,Condo/Co-op,991,2,380,,East Boston's Jeffries Point,MA,2,705,2016,4
+Boston,Condo/Co-op,1000,1.5,219,1000,Jamaica Plain,MA,2,575,1910,4
+Boston,Condo/Co-op,1000,1,183,,Boston,MA,2,530,1890,4
+Boston,Townhouse,1277,2.5,300,,Boston,MA,3,336,2006,4
+Boston,Condo/Co-op,1367,1,190,1367,West Roxbury,MA,3,384,1920,4
+Boston,Condo/Co-op,1005,1,300,1005,Jamaica Plain,MA,2,536,1905,5
+Boston,Townhouse,273,1,158,,South End,MA,0,1630,1899,5
+Boston,Condo/Co-op,905,1,250,,East Boston,MA,2,474,1900,5
+Boston,Single Family Residential,1885,1.5,,1488,South Boston,MA,3,414,1890,5
+Brookline,Condo/Co-op,860,1,656,,Brookline,MA,1,698,1970,5
+Boston,Townhouse,933,1.5,192,933,Boston,MA,2,386,1988,5
+Boston,Multi-Family (2-4 Unit),3240,5,,1275,Boston,MA,6,602,2014,5
+Boston,Condo/Co-op,1484,2.5,2071,,Waterfront,MA,2,1415,2006,5
+Boston,Condo/Co-op,1132,2,352,,South End,MA,2,1059,1920,5
+Boston,Townhouse,1435,2.5,380,1435,Boston,MA,3,278,2004,5
+Boston,Multi-Family (2-4 Unit),3000,3,,3825,Roslindale,MA,6,275,1910,5
+Boston,Multi-Family (2-4 Unit),2466,2,,6475,West Roxbury,MA,5,324,1920,5
+Boston,Multi-Family (2-4 Unit),3315,3.5,,1900,South End,MA,5,1296,1890,5
+Boston,Condo/Co-op,800,1,175,795,South Boston,MA,2,813,1900,5
+Boston,Condo/Co-op,1211,1,235,1211,Jamaica Plain,MA,3,516,1905,5
+Boston,Condo/Co-op,948,1.5,170,,Jamaica Plain,MA,2,611,1905,5
+Boston,Condo/Co-op,785,1,190,735,Boston,MA,2,459,1960,5
+Brookline,Condo/Co-op,2440,3,307,,Coolidge Corner,MA,4,615,1915,5
+Boston,Condo/Co-op,1140,1,624,1140,Seaport District,MA,1,746,1911,5
+Boston,Condo/Co-op,709,1,192,4500,Jamaica Plain,MA,2,647,1895,6
+Boston,Townhouse,1240,1.5,450,,Boston,MA,3,887,1991,6
+Boston,Condo/Co-op,2121,1.5,834,2121,North End,MA,3,825,1999,6
+Boston,Condo/Co-op,1320,1,350,1320,Boston,MA,3,302,1905,6
+Boston,Condo/Co-op,864,1,379,864,Brighton,MA,3,508,1930,6
+Boston,Townhouse,1493,1,385,1493,South End,MA,3,720,1900,6
+Boston,Condo/Co-op,840,1,585,840,Brighton's Cleveland Circle,MA,2,607,1950,6
+Boston,Condo/Co-op,765,1,489,765,South Boston,MA,2,848,1920,6
+Boston,Vacant Land,,,,3316,Dorchester's Savin Hill,MA,,,,7
+Boston,Single Family Residential,1570,2.5,,1642,East Boston,MA,3,490,1880,7
+Boston,Multi-Family (2-4 Unit),3150,2.5,,9456,Boston,MA,6,244,1929,8
+Boston,Multi-Family (2-4 Unit),4554,3.5,,3440,Dorchester,MA,12,242,1905,8
+Boston,Condo/Co-op,1175,2,542,,Brighton,MA,2,709,2017,8
+Boston,Multi-Family (2-4 Unit),3008,4.5,,5257,Roslindale,MA,6,291,1910,9
+Boston,Condo/Co-op,761,1,679,,The Fenway,MA,1,1648,2018,9
+Boston,Condo/Co-op,612,1,580,,The Fenway,MA,1,1606,2018,9
+Boston,Multi-Family (2-4 Unit),2244,2,,2902,Dorchester,MA,7,254,1900,9
+Boston,Multi-Family (2-4 Unit),4080,3,,2480,Dorchester,MA,10,169,1905,9
+Boston,Condo/Co-op,685,1,338,,Chinatown,MA,1,854,1900,9
+Boston,Condo/Co-op,693,1,807,,Seaport District,MA,1,1297,2016,9
+Boston,Condo/Co-op,1405,2,193,1405,South Boston,MA,2,690,2011,9
+Boston,Single Family Residential,1690,2.5,,924,Charlestown,MA,3,589,1870,9
+Boston,Condo/Co-op,1400,2,236,1400,East Boston,MA,2,464,2007,10
+Boston,Condo/Co-op,726,1,146,,South Boston,MA,2,784,1899,10
+Boston,Single Family Residential,4139,3.5,,5955,Dorchester's Neponset,MA,3,314,2017,10
+Boston,Multi-Family (5+ Unit),4906,12,,2206,South Boston,MA,12,713,1890,10
+Boston,Multi-Family (2-4 Unit),2788,2,,7143,West Roxbury's Bellevue Hill,MA,4,358,1855,10
+Boston,Multi-Family (2-4 Unit),3789,3,,6678,Dorchester,MA,6,198,1905,10
+Boston,Condo/Co-op,595,1,200,,East Boston,MA,2,671,2018,10
+Boston,Condo/Co-op,1044,1,308,1044,North End,MA,4,909,1920,10
+Boston,Condo/Co-op,972,2,275,4840,South Boston,MA,2,956,2018,10
+Boston,Condo/Co-op,970,2,275,4840,South Boston,MA,2,927,2018,10
+Boston,Condo/Co-op,1489,2,3488,,Waterfront,MA,2,2619,1987,10
+Boston,Condo/Co-op,954,2,275,4840,South Boston,MA,2,984,2018,10
+Boston,Condo/Co-op,1509,2,2315,1509,Midtown,MA,2,550,2004,10
+Boston,Multi-Family (2-4 Unit),3242,3,,5250,Dorchester's Lower Mills,MA,4,246,1935,10
+Boston,Condo/Co-op,1745,2.5,1873,,Midtown,MA,2,2117,2016,10
+Boston,Condo/Co-op,805,1,300,805,South Boston,MA,3,744,1900,10
+Boston,Single Family Residential,1944,2.5,,5590,Brighton,MA,4,437,1900,10
+Boston,Condo/Co-op,734,1,366,,South End,MA,1,939,1890,10
+Boston,Townhouse,1863,2.5,230,,Jamaica Plain,MA,3,445,2018,10
+Boston,Multi-Family (2-4 Unit),2580,2,,4369,Roxbury,MA,4,252,1910,11
+Newton,Single Family Residential,1626,2,,7004,Newton,MA,3,498,1952,11
+Boston,Condo/Co-op,1336,2,1010,,North End,MA,2,865,1898,11
+Boston,Single Family Residential,1400,2,,7255,Fairmount Hill,MA,3,428,1950,11
+Boston,Single Family Residential,888,1,,5162,Hyde Park,MA,2,404,1960,11
+Boston,Townhouse,1386,1.5,123,,Charlestown,MA,2,663,2005,11
+Boston,Condo/Co-op,1306,2,350,,South Boston,MA,2,842,2018,11
+Boston,Multi-Family (2-4 Unit),3780,3,,14260,Dorchester,MA,8,219,1920,11
+Boston,Condo/Co-op,581,1,125,581,South Boston,MA,1,824,1899,11
+Boston,Condo/Co-op,1637,2,180,1637,South Boston,MA,2,470,1840,11
+Boston,Single Family Residential,2801,2.5,,7200,West Roxbury's Chestnut Hill,MA,4,455,2015,11
+Boston,Condo/Co-op,1711,1.5,816,1711,Dorchester's Lower Mills,MA,2,438,1900,12
+Boston,Single Family Residential,2242,2,,6091,West Roxbury,MA,3,365,1920,12
+Boston,Condo/Co-op,810,1,207,810,Jamaica Plain,MA,2,642,1930,12
+Boston,Townhouse,1243,2.5,167,,South Boston,MA,2,755,2011,12
+Boston,Multi-Family (2-4 Unit),2575,3.5,,1095,South End,MA,4,1124,1875,12
+Boston,Townhouse,1650,3.5,250,1375,South Boston,MA,4,678,1995,12
+Boston,Multi-Family (2-4 Unit),2672,3,,5000,West Roxbury,MA,5,365,1894,12
+Boston,Condo/Co-op,994,2,380,,East Boston,MA,2,719,2016,12
+Boston,Multi-Family (2-4 Unit),4000,5,,3125,South Boston,MA,6,445,1890,12
+Boston,Condo/Co-op,885,1,175,,Roxbury,MA,3,395,1899,12
+Boston,Condo/Co-op,1126,1,540,,South End,MA,2,253,2000,12
+Brookline,Condo/Co-op,1265,2,1072,,Brookline Village,MA,2,687,1970,12
+Boston,Single Family Residential,2550,2.5,,5339,West Roxbury,MA,4,386,1920,12
+Boston,Condo/Co-op,521,1,504,,Seaport District,MA,0,1246,1913,12
+Boston,Single Family Residential,2600,3,,11387,Jamaica Plain,MA,4,496,1947,12
+Boston,Single Family Residential,864,1,,5003,Roslindale,MA,3,422,1957,12
+Boston,Townhouse,1140,1.5,,1602,South Boston,MA,3,622,1880,12
+Boston,Single Family Residential,2134,3,250,2134,Roxbury's Fort Hill,MA,3,374,2009,12
+Boston,Single Family Residential,1772,2.5,,5227,Boston,MA,5,395,1925,13
+Boston,Multi-Family (2-4 Unit),2010,3,,4307,Roslindale,MA,5,438,1910,13
+Boston,Condo/Co-op,1291,2,684,,Back Bay,MA,2,1158,1910,13
+Boston,Condo/Co-op,1573,2.5,2414,,Midtown,MA,2,1303,2000,13
+Boston,Condo/Co-op,570,1,379,,North End,MA,1,928,1989,13
+Boston,Condo/Co-op,1536,2.5,356,,South End,MA,2,1299,1900,13
+Boston,Parking,,,225,,Financial District,MA,,,,13
+Boston,Condo/Co-op,2049,1,396,5113,Roxbury,MA,3,286,1890,13
+Boston,Multi-Family (2-4 Unit),3500,8.5,,828,North End,MA,9,856,1899,13
+Boston,Single Family Residential,3804,2.5,,3804,Harriswood Crescent (A historic series of rowhouses); google/wiki,MA,4,237,1890,13
+Boston,Parking,,,122,9999,South End,MA,,,,13
+Boston,Condo/Co-op,1350,1.5,869,1350,South End,MA,2,959,1864,14
+Boston,Condo/Co-op,1779,2.5,386,1779,South End,MA,2,786,1900,14
+Boston,Condo/Co-op,1639,1.5,300,,Boston,MA,3,390,1892,14
+Boston,Condo/Co-op,780,1,591,,Midtown,MA,1,1603,2016,14
+Boston,Multi-Family (2-4 Unit),2946,3,,1860,South Boston,MA,6,509,1905,14
+Boston,Single Family Residential,2440,2.5,,3638,Roxbury's Franklin Park,MA,4,270,1890,14
+Boston,Single Family Residential,1344,1.5,,4500,Oak Square,MA,3,557,1925,14
+Boston,Condo/Co-op,1172,2,744,,Waterfront,MA,2,1279,1900,14
+Boston,Single Family Residential,1740,2,,6000,West Roxbury,MA,4,351,1989,14
+Boston,Multi-Family (2-4 Unit),3714,2,,2766,Boston,MA,7,283,1900,15
+Boston,Multi-Family (2-4 Unit),2154,3,,2233,East Boston,MA,6,431,1900,16
+Boston,Condo/Co-op,1280,1.5,348,1280,South End,MA,2,780,1899,16
+Boston,Condo/Co-op,1926,2,1496,1926,Waterfront,MA,2,1558,1832,16
+Watertown,Condo/Co-op,1062,1.5,999,,Watertown,MA,1,470,1986,16
+Boston,Condo/Co-op,357,1,164,,South Boston,MA,1,894,1899,16
+Boston,Condo/Co-op,770,1,343,,West Roxbury,MA,2,390,1970,16
+Boston,Single Family Residential,1611,2.5,,1200,Charlestown,MA,3,543,1920,16
+Boston,Condo/Co-op,2300,2,323,,Jamaica Plain,MA,6,278,1910,16
+Boston,Single Family Residential,1822,2,,2750,Brighton,MA,3,375,1954,16
+Boston,Condo/Co-op,1134,1,200,5025,Jamaica Plain,MA,3,542,1910,17
+Boston,Condo/Co-op,788,1,156,788,South End,MA,1,1115,1899,17
+Boston,Condo/Co-op,563,1,175,563,Boston,MA,1,533,1905,17
+Boston,Condo/Co-op,1117,2,1259,1117,Midtown,MA,2,1209,2009,17
+Boston,Multi-Family (5+ Unit),6180,,,2237,South Boston,MA,0,597,1899,17
+Boston,Condo/Co-op,1605,3,200,,South Boston,MA,2,530,1876,17
+Boston,Condo/Co-op,,,,,Boston,MA,0,,,17
+Boston,Condo/Co-op,855,1,340,,Allston,MA,1,626,1899,17
+Boston,Multi-Family (2-4 Unit),2841,4,,5580,Roslindale,MA,7,290,1915,17
+Boston,Condo/Co-op,1495,2.5,285,,Charlestown,MA,2,789,1885,17
+Boston,Condo/Co-op,1354,2.5,268,,Charlestown,MA,2,775,1885,17
+Boston,Condo/Co-op,482,1,282,,South End,MA,1,902,1899,17
+Boston,Condo/Co-op,832,1,595,,Charlestown's Navy Yard,MA,2,816,2015,17
+Watertown,Condo/Co-op,1450,2.5,1533,,Watertown,MA,2,586,1986,17
+Boston,Condo/Co-op,1042,2,804,,Midtown,MA,2,1152,2017,17
+Boston,Townhouse,1208,1.5,250,1208,Roslindale,MA,2,414,2005,18
+Boston,Single Family Residential,1881,2.5,,5407,Mattapan,MA,4,319,1925,18
+Boston,Single Family Residential,988,1.5,,5476,Hyde Park's Fairmount,MA,2,455,1924,18
+Boston,Condo/Co-op,1443,2,,1121,North End,MA,3,936,1600,18
+Boston,Condo/Co-op,1330,2,182,,Back Bay,MA,3,1124,1890,18
+Boston,Multi-Family (2-4 Unit),1922,2,,1792,East Boston,MA,5,384,1905,18
+Boston,Single Family Residential,2152,3,,4499,West Roxbury,MA,4,325,2018,18
+Boston,Condo/Co-op,1100,1,,1100,Dorchester's Meeting House Hill,MA,3,391,1920,18
+Boston,Condo/Co-op,1386,2,809,,South End,MA,2,1115,2003,18
+Boston,Condo/Co-op,1056,2,514,,Brighton,MA,3,521,1963,18
+Boston,Condo/Co-op,646,1,350,646,Boston,MA,2,664,1975,18
+Boston,Condo/Co-op,880,1,851,,Waterfront,MA,1,897,1969,18
+Boston,Multi-Family (2-4 Unit),1929,3,,2252,Boston,MA,6,319,1900,18
+Boston,Townhouse,2185,2.5,,2836,Charlestown,MA,3,709,2018,18
+Boston,Condo/Co-op,946,1.5,572,,Seaport District,MA,1,1452,2018,18
+Boston,Condo/Co-op,982,2,855,,Midtown,MA,2,865,2004,18
+Boston,Condo/Co-op,961,1,250,,Dorchester's Savin Hill,MA,3,519,1920,18
+Boston,Condo/Co-op,2377,2.5,650,,Back Bay,MA,3,1241,1890,18
+Boston,Single Family Residential,3200,2.5,,5062,Near Village,MA,6,275,1910,18
+Boston,Condo/Co-op,1849,3,129,1849,East Boston,MA,3,379,1900,18
+Boston,Condo/Co-op,1482,1.5,225,,Roslindale,MA,2,397,2013,18
+Boston,Townhouse,1381,2,,1381,Dorchester,MA,3,237,1993,19
+Boston,Single Family Residential,1243,2,,3469,Meeting House Hill,MA,2,366,1910,19
+Boston,Single Family Residential,1362,2,,3840,Adams Village,MA,3,411,1900,19
+Boston,Single Family Residential,1707,2.5,,6800,Boston,MA,5,322,1989,19
+Boston,Condo/Co-op,2483,2.5,2085,,Charlestown,MA,3,946,1989,19
+Boston,Condo/Co-op,635,1,379,635,Back Bay,MA,0,943,1900,19
+Boston,Townhouse,870,1,408,,Back Bay,MA,1,1259,1890,19
+Boston,Multi-Family (2-4 Unit),3483,3,,3491,Dorchester,MA,8,207,1905,19
+Boston,Townhouse,1293,1.5,215,,Roslindale,MA,2,448,2013,19
+Boston,Condo/Co-op,1208,2,980,1208,Back Bay,MA,2,1238,1930,19
+Boston,Multi-Family (5+ Unit),5082,6,,4480,Dorchester,MA,12,275,1905,19
+Boston,Condo/Co-op,720,1,500,,Beacon Hill,MA,1,1222,1850,19
+Boston,Condo/Co-op,1056,2,525,1056,Brighton,MA,3,530,1963,19
+Boston,Multi-Family (2-4 Unit),4500,4,,1300,South Boston,MA,10,467,1905,19
+Brookline,Condo/Co-op,1843,2,350,,Coolidge Corner,MA,3,651,1930,19
+Boston,Condo/Co-op,825,1,569,825,Brighton's Cleveland Circle,MA,2,629,1950,19
+Boston,Condo/Co-op,1103,2,150,1103,Boston,MA,2,635,1905,19
+Boston,Condo/Co-op,1519,2,996,1519,Waterfront,MA,2,1053,1987,19
+Boston,Condo/Co-op,1139,2,601,1139,South Boston,MA,2,834,1906,19
+Boston,Single Family Residential,1621,2,,4388,Mattapan,MA,4,271,1920,20
+Boston,Condo/Co-op,1500,2,1625,,Midtown,MA,2,1823,2016,20
+Boston,Condo/Co-op,971,2,402,,Charlestown,MA,2,771,2016,20
+Boston,Multi-Family (2-4 Unit),3138,3,,3486,East Boston,MA,8,335,1890,20
+Boston,Condo/Co-op,1070,1,260,1070,Boston,MA,2,635,1905,20
+Boston,Single Family Residential,4555,3,,2900,Charlestown,MA,7,823,1853,20
+Boston,Condo/Co-op,871,1.5,651,,Midtown,MA,1,1487,2016,20
+Boston,Condo/Co-op,1209,2.5,304,,North End,MA,2,1096,1900,20
+Boston,Mobile/Manufactured Home,504,1,,,East Boston,MA,1,139,2011,21
+Boston,Single Family Residential,1306,1.5,,6250,Hyde Park's Fairmount,MA,3,356,1960,21
+Boston,Townhouse,2619,2.5,,1371,South End,MA,3,1012,1999,21
+Boston,Single Family Residential,2619,2.5,,1371,South End,MA,3,1012,1999,21
+Boston,Condo/Co-op,991,1.5,,1433,Roslindale,MA,2,469,1987,21
+Boston,Multi-Family (2-4 Unit),2916,2,,1825,Boston,MA,6,206,1890,22
+Boston,Condo/Co-op,1562,3,1424,,South Boston,MA,2,1088,2018,22
+Boston,Condo/Co-op,1073,2,838,,South Boston,MA,2,1072,2018,22
+Boston,Condo/Co-op,979,2,725,,South Boston,MA,2,1047,2018,22
+Boston,Condo/Co-op,2438,3,2476,,South Boston,MA,4,1087,2018,22
+Boston,Vacant Land,,,,3145,East Boston's Jeffries Point,MA,,,,23
+Boston,Condo/Co-op,1030,2,596,,Allston,MA,2,796,1986,23
+Boston,Vacant Land,,,,11762,Roxbury,MA,,,,23
+Boston,Condo/Co-op,746,1,205,,Boston,MA,1,408,1920,23
+Boston,Condo/Co-op,655,1,150,,Charlestown,MA,1,824,1890,23
+Boston,Condo/Co-op,1169,2,1212,,Back Bay,MA,2,1326,1986,23
+Boston,Single Family Residential,1513,2.5,,1513,Charlestown,MA,3,790,2002,23
+Boston,Condo/Co-op,1347,1.5,508,1347,The Fenway,MA,2,690,1910,23
+Boston,Multi-Family (2-4 Unit),1740,2,,1250,East Boston,MA,4,362,1910,23
+Boston,Condo/Co-op,487,1,320,,Boston,MA,0,1057,2017,24
+Boston,Condo/Co-op,1388,1,395,5113,Boston,MA,3,342,1890,24
+Boston,Condo/Co-op,888,1,626,888,Seaport District,MA,1,957,1911,24
+Boston,Single Family Residential,2971,1.5,,2043,Boston,MA,6,269,1890,24
+Boston,Condo/Co-op,1062,1,196,1062,Boston,MA,2,315,1899,24
+Boston,Condo/Co-op,1700,2,586,,South Boston,MA,1,441,1900,24
+Boston,Condo/Co-op,1203,2,225,,Roxbury,MA,3,398,1900,24
+Boston,Condo/Co-op,1836,3,265,,Roxbury,MA,4,315,1900,24
+Boston,Condo/Co-op,1180,1.5,265,,Charlestown,MA,1,762,1900,24
+Boston,Single Family Residential,1310,1,,3600,Dorchester,MA,3,572,1930,24
+Boston,Condo/Co-op,1167,2,456,,Charlestown,MA,2,719,2016,24
+Boston,Condo/Co-op,1388,1.5,170,,Charlestown,MA,2,598,1885,24
+Boston,Multi-Family (2-4 Unit),2992,2.5,,4000,Boston,MA,5,221,1910,24
+Boston,Condo/Co-op,987,2,303,,East Boston,MA,2,628,2018,24
+Boston,Condo/Co-op,2590,2.5,1082,2590,Back Bay,MA,3,1390,1899,24
+Boston,Condo/Co-op,1533,2,574,1310,Back Bay,MA,2,1040,1850,24
+Boston,Multi-Family (2-4 Unit),4146,6,,3785,Boston,MA,12,289,1905,24
+Boston,Condo/Co-op,1285,2,1426,,Beacon Hill,MA,2,1479,1952,24
+Boston,Townhouse,1372,2,363,1372,Back Bay,MA,2,1165,1890,24
+Boston,Single Family Residential,1819,3,,4962,Boston,MA,4,253,1905,24
+Boston,Condo/Co-op,2040,2.5,409,,South End,MA,3,1200,1900,25
+Boston,Townhouse,941,2,342,941,Back Bay,MA,2,1265,1882,25
+Boston,Condo/Co-op,1135,2,565,1135,Brighton,MA,2,634,2002,25
+Boston,Condo/Co-op,974,1,150,974,Boston,MA,2,492,1890,25
+Boston,Condo/Co-op,1555,2.5,200,,South Boston,MA,3,610,1905,25
+Boston,Condo/Co-op,1006,2,150,,Charlestown,MA,2,695,1870,25
+Boston,Condo/Co-op,1485,2,744,,Waterfront,MA,2,763,1900,25
+Boston,Condo/Co-op,806,1,409,,Charlestown,MA,2,743,1988,25
+Boston,Multi-Family (2-4 Unit),1675,2,,1104,Charlestown,MA,4,657,1870,25
+Boston,Condo/Co-op,1030,1,300,,South End,MA,2,679,1905,25
+Boston,Condo/Co-op,1343,1,185,5641,Roslindale,MA,2,335,1876,25
+Boston,Condo/Co-op,1862,3.5,2538,1862,Midtown,MA,3,1208,2000,25
+Boston,Condo/Co-op,1117,2,190,,Dorchester,MA,3,492,1905,25
+Boston,Condo/Co-op,2550,3,250,,Dorchester,MA,3,275,1905,25
+Boston,Townhouse,1506,1.5,273,1506,Dorchester,MA,3,258,1989,25
+Boston,Condo/Co-op,1215,2,894,,Back Bay,MA,2,1230,1900,25
+Boston,Condo/Co-op,2414,3.5,1463,,Waterfront,MA,3,1593,2018,25
+Boston,Condo/Co-op,1160,2,482,,Charlestown,MA,2,835,1989,25
+Boston,Condo/Co-op,867,1,250,,East Boston,MA,2,633,2018,25
+Boston,Condo/Co-op,968,1,325,968,South Boston,MA,2,712,1899,25
+Boston,Condo/Co-op,1256,1,226,3500,Roxbury,MA,3,410,1900,25
+Boston,Condo/Co-op,761,1,669,,The Fenway,MA,1,1666,2018,25
+Boston,Condo/Co-op,746,1,380,,South End,MA,2,1071,1945,25
+Boston,Condo/Co-op,1977,2.5,1977,,Waterfront,MA,2,961,1970,25
+Boston,Townhouse,2260,2.5,383,2260,South End,MA,2,1170,1875,25
+Boston,Single Family Residential,1300,1.5,,5824,Metropolitan Hill,MA,3,404,1946,25
+Boston,Single Family Residential,1792,1.5,,2924,Roxbury's Fort Hill,MA,5,334,1905,25
+Boston,Single Family Residential,2454,2.5,,5000,Boston,MA,5,251,1935,26
+Boston,Multi-Family (2-4 Unit),1715,2,,5394,Mattapan,MA,4,280,1950,26
+Boston,Single Family Residential,4051,4,,2080,South End,MA,4,986,1860,26
+Boston,Condo/Co-op,758,1,656,,Waterfront,MA,1,962,1970,26
+Boston,Condo/Co-op,1745,2,1157,,Charlestown's Navy Yard,MA,2,888,1990,26
+Boston,Condo/Co-op,864,1,702,,Waterfront,MA,1,925,2006,26
+Boston,Condo/Co-op,835,1.5,664,835,Midtown,MA,1,1149,2013,26
+Boston,Condo/Co-op,1985,2.5,2229,,Seaport District,MA,2,2063,2015,26
+Boston,Condo/Co-op,926,2,465,,Charlestown,MA,2,874,1986,26
+Boston,Condo/Co-op,1024,2,691,1024,Back Bay,MA,2,1123,1989,26
+Boston,Condo/Co-op,1426,2,268,1426,Roxbury,MA,4,350,1885,26
+Boston,Townhouse,1278,1.5,112,,South End,MA,2,1134,1981,26
+Boston,Condo/Co-op,953,1.5,150,2613,Dorchester's Savin Hill,MA,2,603,1910,26
+Boston,Condo/Co-op,530,1,328,,Seaport District,MA,1,1179,1916,26
+Boston,Condo/Co-op,1506,1,270,1506,Jamaica Plain,MA,3,425,1905,26
+Boston,Single Family Residential,3005,2.5,,4690,Coveted Saint John Street,MA,4,597,1885,26
+Boston,Condo/Co-op,1195,2,446,,Brighton,MA,2,665,1924,26
+Boston,Single Family Residential,1592,1.5,,12000,West Roxbury,MA,2,327,1885,27
+Boston,Condo/Co-op,1190,2,350,1190,South Boston,MA,2,747,2010,27
+Boston,Single Family Residential,2416,2.5,,10782,Boston,MA,6,256,1893,27
+Boston,Condo/Co-op,1366,2.5,1240,,Theatre District,MA,2,1409,2016,27
+Boston,Condo/Co-op,1244,2.5,130,1244,South Boston,MA,2,642,1890,27
+Boston,Condo/Co-op,1138,2,503,1138,South End,MA,2,857,2002,27
+Boston,Townhouse,880,1,175,880,South End,MA,1,903,1865,27
+Boston,Condo/Co-op,556,1,394,556,Brighton,MA,1,700,1920,27
+Boston,Multi-Family (2-4 Unit),1980,2,,2500,East Boston,MA,5,454,1910,27
+Boston,Multi-Family (2-4 Unit),1793,2.5,,,South Boston,MA,3,669,1905,27
+Boston,Condo/Co-op,1394,2.5,1651,1394,South End,MA,2,1542,2003,27
+Boston,Condo/Co-op,1504,2.5,2176,,Midtown,MA,2,1163,2001,27
+Boston,Multi-Family (2-4 Unit),3751,3,,1817,East Boston's Jeffries Point,MA,8,453,1910,27
+Boston,Condo/Co-op,1533,2,632,,Back Bay,MA,2,1272,1872,27
+Boston,Single Family Residential,3500,4,,647,Beacon Hill,MA,5,1714,1935,27
+Boston,Condo/Co-op,911,1,180,,Roslindale,MA,3,394,1905,28
+Boston,Condo/Co-op,1794,2.5,,,Dorchester's Neponset,MA,3,404,2015,28
+Boston,Multi-Family (2-4 Unit),3453,3,,5425,Boston,MA,8,193,1890,28
+Boston,Condo/Co-op,1112,2,542,,Brighton,MA,2,772,2017,28
+Boston,Condo/Co-op,909,2,479,,Kenmore Square,MA,2,977,1910,30
+Boston,Condo/Co-op,1556,2,316,,Roxbury,MA,2,353,2006,30
+Boston,Single Family Residential,1781,2.5,,6600,Roslindale,MA,4,460,1910,30
+Boston,Condo/Co-op,1732,2,1038,1732,Dorchester's Lower Mills,MA,1,514,1900,30
+Boston,Condo/Co-op,1872,2.5,2266,,The Fenway,MA,2,1600,2018,30
+Boston,Single Family Residential,1322,2,,5224,Hyde Park's Readville,MA,4,361,1931,31
+Boston,Condo/Co-op,2055,2.5,2575,,The Fenway,MA,2,1924,2018,31
+Boston,Vacant Land,,,,43995,Roslindale,MA,,,,31
+Boston,Condo/Co-op,1497,2.5,1621,,The Fenway,MA,2,1455,2018,31
+Boston,Condo/Co-op,2684,3,3484,,The Fenway,MA,3,1958,2018,31
+Boston,Condo/Co-op,1343,2,743,,Leather District,MA,1,736,1918,31
+Boston,Single Family Residential,1728,1.5,,5000,Codman Squar,MA,3,260,1900,31
+Boston,Condo/Co-op,2815,3,2350,,Back Bay,MA,3,1774,1861,31
+Boston,Single Family Residential,3248,4.5,,1,Beacon Hill,MA,4,1308,2019,31
+Brookline,Condo/Co-op,3114,3.5,354,,Brookline,MA,3,801,2018,31
+Boston,Condo/Co-op,1057,2,430,,Brighton,MA,2,851,2015,31
+Boston,Condo/Co-op,1726,2.5,1091,,South End,MA,2,924,2006,31
+Boston,Condo/Co-op,2521,2.5,3461,,Back Bay,MA,2,2380,1988,32
+Boston,Condo/Co-op,510,1,609,,Boston,MA,1,900,1968,32
+Boston,Townhouse,1209,1.5,180,1209,Boston,MA,2,280,1988,33
+Boston,Multi-Family (2-4 Unit),2766,2,,4085,Dorchester's Ashmont,MA,6,325,1925,33
+Boston,Condo/Co-op,1500,2,300,1500,Boston,MA,3,333,2007,33
+Boston,Condo/Co-op,948,1,517,,Boston,MA,1,1245,2016,33
+Boston,Single Family Residential,1408,1,,2375,Roxbury,MA,4,313,1890,33
+Boston,Multi-Family (2-4 Unit),1701,2.5,,1273,Boston,MA,3,341,1890,34
+Boston,Condo/Co-op,1145,1,395,1145,East Boston,MA,1,436,1945,34
+Boston,Condo/Co-op,1625,1.5,221,1625,South End,MA,3,1046,1899,34
+Boston,Condo/Co-op,1315,2,341,9583,Dorchester's Fields Corner,MA,3,349,2008,35
+Boston,Condo/Co-op,1558,2,265,,East Boston,MA,3,468,1862,36
+Boston,Condo/Co-op,1175,2,528,,Brighton,MA,2,734,2017,36
+Boston,Condo/Co-op,1255,2,245,,East Boston,MA,2,557,1862,36
+Boston,Single Family Residential,1438,1.5,,6730,West Codman Hill/ West Lower Mills,MA,3,428,1920,36
+Boston,Condo/Co-op,991,1,220,991,Dorchester,MA,3,328,1900,36
+Boston,Condo/Co-op,1077,2,1366,,West End,MA,2,673,1998,36
+Boston,Condo/Co-op,530,1,461,530,Beacon Hill,MA,1,1055,1952,37
+Boston,Multi-Family (2-4 Unit),3400,3,,1877,East Boston,MA,6,282,1910,37
+Boston,Condo/Co-op,1195,2,714,13971,Brighton's Cleveland Circle,MA,4,576,1920,37
+Boston,Condo/Co-op,1217,1.5,2100,,West End,MA,2,615,1997,37
+Boston,Condo/Co-op,708,1,,708,Roxbury,MA,3,451,1890,37
+Boston,Multi-Family (2-4 Unit),2472,2,,3600,Boston,MA,5,323,1900,37
+Boston,Condo/Co-op,991,1,220,991,Dorchester,MA,3,303,1900,38
+Boston,Townhouse,1345,2,315,1345,Boston,MA,3,186,2005,38
+Boston,Condo/Co-op,959,1,499,,South Boston,MA,1,937,2018,38
+Boston,Condo/Co-op,886,1,300,,Jamaica Plain,MA,2,784,2018,38
+Boston,Condo/Co-op,649,1,444,,Brighton,MA,2,553,1947,38
+Boston,Multi-Family (2-4 Unit),3068,3,,3887,Boston,MA,9,217,1910,38
+Boston,Condo/Co-op,898,1,381,,Kenmore Square,MA,2,813,1910,38
+Boston,Multi-Family (5+ Unit),4476,6,,3145,East Boston's Jeffries Point,MA,10,402,1905,39
+Boston,Condo/Co-op,811,1,372,,Midtown,MA,1,885,1899,39
+Boston,Condo/Co-op,1447,2,1036,1447,South End,MA,2,1071,1932,39
+Boston,Condo/Co-op,626,1,211,,Boston,MA,0,1078,1890,39
+Boston,Vacant Land,,,,19808,Dorchester,MA,,,,39
+Boston,Condo/Co-op,926,1.5,873,,Back Bay,MA,1,1296,2004,39
+Boston,Condo/Co-op,1980,3,398,2613,South End,MA,3,987,1910,39
+Boston,Condo/Co-op,1715,2.5,2005,,Back Bay,MA,2,1280,2004,39
+Boston,Multi-Family (2-4 Unit),3206,4,,5198,Roslindale,MA,5,259,1925,39
+Boston,Townhouse,2075,3.5,342,,South Boston,MA,3,639,2017,39
+Boston,Condo/Co-op,896,2,150,,South Boston,MA,2,792,1880,40
+Boston,Condo/Co-op,617,1,128,,North End,MA,2,875,1900,40
+Boston,Multi-Family (2-4 Unit),2861,3,,3750,Dorchester's Ashmont,MA,12,350,1920,40
+Boston,Condo/Co-op,933,1,792,,West End,MA,1,588,1964,40
+Boston,Condo/Co-op,3132,4,6607,,Waterfront,MA,4,3113,1987,40
+Boston,Condo/Co-op,2096,3,2650,,Midtown,MA,3,2242,2016,40
+Boston,Condo/Co-op,1050,2,200,2900,South Boston,MA,2,809,2018,40
+Brookline,Condo/Co-op,1814,1.5,740,,Brookline,MA,3,551,1930,40
+Boston,Condo/Co-op,1101,2,359,,Dorchester,MA,3,453,2017,40
+Boston,Condo/Co-op,1698,3.5,850,1527,Back Bay,MA,3,1290,1899,40
+Boston,Multi-Family (5+ Unit),20838,148.5,,22181,South Boston,MA,99,576,1920,41
+Boston,Condo/Co-op,1100,2,250,,Dorchester's Meeting House Hill,MA,2,409,1920,41
+Boston,Condo/Co-op,701,1,567,701,Charlestown's Navy Yard,MA,1,728,1899,41
+Boston,Single Family Residential,922,1,,1250,Boston,MA,3,521,1910,41
+Boston,Condo/Co-op,528,1,342,,Seaport District,MA,1,1229,1916,41
+Boston,Condo/Co-op,968,2,709,,Seaport District,MA,2,1291,1916,41
+Boston,Condo/Co-op,1234,2,245,,East Boston,MA,2,510,1862,42
+Boston,Condo/Co-op,980,2,474,29669,Jamaica Plain,MA,2,703,2019,44
+Boston,Condo/Co-op,1343,2,608,29669,Jamaica Plain,MA,3,662,2019,44
+Boston,Condo/Co-op,704,1,363,29669,Jamaica Plain,MA,1,709,2019,44
+Boston,Single Family Residential,9000,2,,4386,South Boston,MA,4,322,1920,44
+Boston,Vacant Land,,,,4784,Dorchester's Ashmont,MA,,,,44
+Boston,Condo/Co-op,1100,1,225,,Roxbury,MA,3,390,1911,44
+Boston,Condo/Co-op,1210,2,240,,Roxbury,MA,3,404,1911,44
+Boston,Single Family Residential,1919,2.5,,1310,South Boston,MA,5,458,1900,45
+Boston,Vacant Land,,,,69696,West Roxbury,MA,,,,45
+Boston,Multi-Family (2-4 Unit),2000,1,,5000,Boston,MA,6,298,1989,45
+Boston,Condo/Co-op,708,1,338,708,Beacon Hill,MA,2,1129,1930,45
+Dedham,Single Family Residential,1424,1.5,,4500,Dedham,MA,4,316,1917,45
+Boston,Condo/Co-op,926,1.5,917,,North End,MA,1,1381,1918,45
+Boston,Condo/Co-op,898,1,1115,,Midtown,MA,1,1775,2016,45
+Boston,Condo/Co-op,1105,2,635,,Back Bay,MA,2,1353,1900,45
+Boston,Condo/Co-op,750,1,823,,Waterfront,MA,1,1100,1972,45
+Boston,Condo/Co-op,625,1,550,,Beacon Hill,MA,1,1086,1952,46
+Boston,Condo/Co-op,665,1,306,,Brighton,MA,2,555,1910,46
+Boston,Condo/Co-op,1825,2,408,52356,Jamaica Plain,MA,3,421,2018,46
+Boston,Townhouse,1850,2.5,470,,Dorchester's Neponset,MA,3,454,1890,46
+Boston,Condo/Co-op,1599,2,671,1599,Seaport District,MA,2,782,1911,46
+Boston,Condo/Co-op,1218,2,200,,East Boston,MA,3,549,1900,46
+Boston,Condo/Co-op,1167,2,175,,Dorchester,MA,3,402,1905,46
+Boston,Condo/Co-op,1358,2,200,1358,South Boston,MA,3,773,1905,46
+Boston,Single Family Residential,2416,3,,753,Beacon Hill,MA,4,993,1890,46
+Boston,Multi-Family (2-4 Unit),2650,3,,2896,Brighton,MA,7,434,1925,46
+Boston,Multi-Family (2-4 Unit),2364,2,,4500,Brighton,MA,5,397,1928,46
+Boston,Condo/Co-op,2588,2.5,4882,,Waterfront,MA,3,1928,2008,46
+Boston,Condo/Co-op,988,2,190,,Dorchester,MA,2,526,2018,47
+Boston,Condo/Co-op,954,2,244,,Roxbury,MA,2,502,2017,47
+Boston,Condo/Co-op,964,1,256,964,South End,MA,2,881,1899,47
+Boston,Condo/Co-op,1199,2,389,,Seaport District,MA,2,750,2004,47
+Boston,Townhouse,1703,2.5,337,,East Boston,MA,3,423,2018,47
+Boston,Condo/Co-op,740,1,840,,Roslindale,MA,1,264,1899,47
+Boston,Single Family Residential,1040,1,,4478,Boston,MA,3,394,1950,47
+Boston,Single Family Residential,2300,1.5,,2340,Dorchester's Dorchester Center,MA,6,235,1890,47
+Boston,Condo/Co-op,1279,1,580,,Waterfront,MA,2,617,1900,47
+Boston,Condo/Co-op,1426,2.5,1473,,Midtown,MA,2,1680,2016,47
+Boston,Townhouse,791,1,196,,South End,MA,2,1010,1890,47
+Boston,Condo/Co-op,1976,2.5,495,1976,South End,MA,2,1012,1899,47
+Boston,Condo/Co-op,759,1,233,,East Boston,MA,1,684,2018,47
+Boston,Vacant Land,,,,4000,Dorchester,MA,,,,47
+Boston,Condo/Co-op,1125,2,257,,East Boston,MA,2,612,1900,48
+Boston,Single Family Residential,1798,2.5,,4500,Allston,MA,5,489,1900,48
+Boston,Condo/Co-op,1882,3,2509,1882,Midtown,MA,3,1698,2013,48
+Boston,Condo/Co-op,927,1.5,175,,Dorchester,MA,2,502,1885,48
+Boston,Condo/Co-op,1785,2.5,500,,South Boston,MA,2,1036,2018,48
+Boston,Condo/Co-op,1840,2.5,500,,Seaport District,MA,2,1114,2018,48
+Boston,Condo/Co-op,909,1,455,909,Brighton,MA,2,506,1964,48
+Boston,Townhouse,1990,2.5,180,,Brighton,MA,3,495,2018,49
+Boston,Condo/Co-op,2121,2.5,1035,,Back Bay,MA,4,1792,1874,50
+Boston,Condo/Co-op,690,1,579,,Beacon Hill,MA,1,1013,1952,50
+Boston,Single Family Residential,3314,4.5,,6400,Mattapan,MA,5,196,1950,51
+Boston,Multi-Family (5+ Unit),4560,8,,16061,Jamaica Plain,MA,19,811,1898,51
+Boston,Condo/Co-op,4703,5.5,7396,,Midtown,MA,5,2233,2000,51
+Boston,Multi-Family (2-4 Unit),8500,10.5,,9999,Charlestown,MA,12,694,2018,51
+Boston,Townhouse,2700,3.5,,,Charlestown,MA,3,740,2018,51
+Boston,Condo/Co-op,482,1,378,,Midtown,MA,1,1110,2017,51
+Boston,Condo/Co-op,1159,2.5,150,,South Boston,MA,3,660,1890,52
+Boston,Condo/Co-op,905,2,235,7200,Jamaica Plain,MA,2,717,1900,52
+Boston,Condo/Co-op,905,2,235,7200,Jamaica Plain,MA,2,717,1900,52
+Boston,Condo/Co-op,905,2,230,7200,Jamaica Plain,MA,2,706,1900,52
+Boston,Condo/Co-op,1402,2.5,1835,,Midtown,MA,2,995,2001,52
+Boston,Single Family Residential,4448,2.5,,5286,Roslindale,MA,8,225,1902,52
+Paxton,Single Family Residential,3714,4,,58125,"""Candlewood Estates""",MA,5,148,1982,52
+Boston,Multi-Family (2-4 Unit),3525,3,,3784,Brighton,MA,10,425,1900,52
+Boston,Condo/Co-op,814,2,373,,Boston,MA,2,633,1930,52
+Boston,Condo/Co-op,1036,2,150,1036,South End,MA,2,964,1875,52
+Boston,Multi-Family (2-4 Unit),2068,3,,1100,Boston,MA,3,387,1900,52
+Boston,Condo/Co-op,990,2,225,,Roslindale,MA,3,464,1920,52
+Boston,Condo/Co-op,1130,1,1112,,Jamaica Plain,MA,2,495,1963,53
+Milton,Single Family Residential,1800,1.5,,5145,Columbine,MA,3,422,1915,53
+Boston,Vacant Land,,,,5820,Boston,MA,,,,53
+Boston,Condo/Co-op,1109,1,276,1109,East Boston,MA,2,423,2013,53
+Boston,Condo/Co-op,1488,2.5,810,,Back Bay,MA,3,1815,1899,53
+Boston,Condo/Co-op,935,1,901,935,West End,MA,1,572,1964,53
+Boston,Condo/Co-op,1917,2.5,1051,,Waterfront,MA,2,1395,2018,53
+Boston,Condo/Co-op,1140,1.5,425,1140,The Fenway,MA,4,1224,1890,53
+Boston,Single Family Residential,2100,2.5,,10890,MOSS HILL,MA,3,474,1940,53
+Boston,Townhouse,1960,2,250,1996,West Roxbury,MA,4,252,1930,53
+Boston,Multi-Family (2-4 Unit),3900,5,,1068,North End,MA,8,795,1894,53
+Boston,Single Family Residential,1208,2,,1950,Dorchester,MA,2,269,1991,53
+Boston,Condo/Co-op,1045,2,1510,1045,Waterfront,MA,1,1411,1987,53
+Boston,Single Family Residential,2250,2,,10000,Brighton,MA,4,302,1890,53
+Boston,Multi-Family (2-4 Unit),2130,2,,6400,Boston,MA,4,272,1920,54
+Brookline,Single Family Residential,1400,2,,3700,allendale,MA,3,486,1940,54
+Boston,Multi-Family (2-4 Unit),3293,3,,4021,Dorchester,MA,6,270,1885,54
+Boston,Multi-Family (2-4 Unit),1806,3,,3125,South Boston,MA,4,609,1925,54
+Boston,Single Family Residential,2800,2.5,,8473,West Roxbury,MA,4,446,2018,54
+Boston,Multi-Family (2-4 Unit),3784,4,,2750,South Boston,MA,4,528,1910,54
+Boston,Condo/Co-op,1054,1.5,262,,South Boston,MA,2,655,1875,54
+Brookline,Single Family Residential,4163,4.5,,13583,Brookline,MA,4,540,1930,54
+Boston,Condo/Co-op,3109,3.5,1335,,South End,MA,3,1415,2018,54
+Boston,Townhouse,1381,1.5,1213,,Beacon Hill,MA,2,1213,1850,54
+Boston,Condo/Co-op,1501,2,200,3865,Boston,MA,3,313,1900,54
+Boston,Multi-Family (2-4 Unit),6034,3.5,,6090,Jamaica Plain,MA,6,398,1930,54
+Boston,Townhouse,2684,2.5,250,,Roslindale,MA,3,260,2018,55
+Boston,Multi-Family (2-4 Unit),4000,5,,1870,South End,MA,4,899,1867,55
+Boston,Condo/Co-op,1675,2,615,,Leather District,MA,2,623,1899,55
+Boston,Condo/Co-op,2069,3,888,,South End,MA,3,1353,2018,55
+Cambridge,Condo/Co-op,811,1,942,,Harvard Square,MA,1,993,1960,55
+Boston,Multi-Family (2-4 Unit),2457,3,,2096,Roxbury,MA,6,305,1892,55
+Boston,Condo/Co-op,1190,2,223,2900,South Boston,MA,2,798,2018,55
+Boston,Condo/Co-op,878,1.5,657,,Midtown,MA,1,1639,2016,55
+Boston,Condo/Co-op,1170,2,977,1170,Midtown,MA,2,1154,2013,55
+Boston,Single Family Residential,1980,1,,2376,Boston,MA,3,477,1900,56
+Boston,Single Family Residential,1255,1.5,,792,Roxbury's Fort Hill,MA,4,386,1920,56
+Boston,Single Family Residential,1809,2,,6000,Roslindale,MA,4,426,1900,56
+Boston,Townhouse,1593,2.5,,,East Boston,MA,3,439,2018,57
+Boston,Condo/Co-op,1823,3,1925,,South End,MA,3,1584,2018,57
+Boston,Condo/Co-op,996,1.5,588,,Midtown,MA,1,883,2017,58
+Boston,Condo/Co-op,1514,2.5,530,,South Boston,MA,2,776,2018,58
+Boston,Condo/Co-op,1372,2,480,,South Boston,MA,2,728,2018,58
+Boston,Condo/Co-op,2007,2.5,815,,Bay Village,MA,2,1233,2018,59
+Boston,Condo/Co-op,889,1,278,,South Boston,MA,1,831,2017,59
+Boston,Condo/Co-op,1032,2,200,,Dorchester's Ashmont,MA,3,533,1890,59
+Boston,Condo/Co-op,1804,2.5,1328,1804,Seaport District,MA,3,992,1899,59
+Boston,Multi-Family (2-4 Unit),3500,4.5,,3707,Brighton,MA,5,337,1990,59
+Boston,Multi-Family (2-4 Unit),3252,2,,6245,Dorchester's Codman Square,MA,7,258,1870,59
+Boston,Condo/Co-op,1206,1,222,,East Boston,MA,3,381,1899,59
+Boston,Single Family Residential,2260,3,,1480,Dorchester Heights,MA,4,440,1862,59
+Boston,Condo/Co-op,1042,2,660,1042,South Boston,MA,2,912,1906,59
+Boston,Condo/Co-op,1053,2,177,,Boston,MA,2,617,2016,60
+Boston,Condo/Co-op,1378,2.5,1016,,South End,MA,2,1015,2018,60
+Boston,Condo/Co-op,1144,2,999,,South End,MA,2,1048,2018,60
+Boston,Condo/Co-op,1348,2.5,1108,,South End,MA,2,1183,2018,60
+Boston,Condo/Co-op,1163,1.5,1259,1163,Back Bay,MA,1,1247,2004,60
+Boston,Condo/Co-op,1474,2,495,,South Boston,MA,2,623,2007,60
+Boston,Vacant Land,,,,24375,East Boston,MA,,,,60
+Boston,Condo/Co-op,750,1,369,750,Boston,MA,1,580,1960,60
+Boston,Condo/Co-op,1840,2.5,1776,,Waterfront,MA,2,1450,2006,61
+Winthrop,Vacant Land,,,,5678,Winthrop,MA,,,,61
+Brookline,Condo/Co-op,1814,2,740,,Brookline,MA,3,545,1930,61
+Boston,Condo/Co-op,692,1,315,,Allston,MA,1,649,1945,61
+Boston,Multi-Family (2-4 Unit),2938,3,,3108,Dorchester,MA,7,221,1905,61
+Boston,Condo/Co-op,1430,2,1927,,Midtown,MA,2,978,1991,61
+Boston,Condo/Co-op,3366,3.5,2467,,Jamaica Plain,MA,4,594,1982,61
+Boston,Condo/Co-op,1181,2,,,Boston,MA,2,1312,2018,62
+Boston,Condo/Co-op,1135,1,,,Boston,MA,2,357,1920,62
+Boston,Condo/Co-op,842,1,262,842,Mattapan,MA,3,284,1980,62
+Boston,Multi-Family (2-4 Unit),1600,2,,1600,Boston,MA,2,412,1890,62
+Boston,Condo/Co-op,1172,2,410,,South Boston,MA,2,802,2018,62
+Boston,Condo/Co-op,1132,2,396,,South Boston,MA,2,773,2018,62
+Boston,Condo/Co-op,940,1,329,,South Boston,MA,1,744,2018,62
+Chelsea,Multi-Family (5+ Unit),4060,6,,2600,Chelsea,MA,6,271,1860,63
+Boston,Multi-Family (2-4 Unit),3450,6,,3250,East Boston,MA,11,478,1900,63
+Boston,Single Family Residential,3600,3,,6418,Dorchester,MA,10,225,1890,63
+Boston,Single Family Residential,1450,2,,5000,Roslindale,MA,3,399,1957,65
+Watertown,Condo/Co-op,916,1,650,,Watertown,MA,2,545,1962,65
+Boston,Condo/Co-op,2539,2.5,867,,Back Bay,MA,3,1950,1878,65
+Boston,Condo/Co-op,332,1,265,,Kenmore Square,MA,0,1202,1910,65
+Boston,Condo/Co-op,1483,2.5,2138,,Waterfront,MA,2,1247,2006,65
+Boston,Condo/Co-op,2576,2.5,1085,,Bay Village,MA,3,1417,2018,65
+Boston,Condo/Co-op,946,1.5,571,,Boston,MA,1,1321,2018,66
+Boston,Condo/Co-op,930,1,150,3520,Hyde Park,MA,3,429,1910,66
+Boston,Townhouse,1172,1.5,232,1476,Dorchester's Savin Hill,MA,2,469,1989,66
+Boston,Condo/Co-op,918,2,521,918,Back Bay,MA,2,1045,1900,66
+Boston,Condo/Co-op,4099,3.5,2484,,Financial District,MA,3,1461,2018,66
+Brookline,Vacant Land,,,,42457,Chestnut Hill,MA,,,,66
+Boston,Single Family Residential,2750,2.5,,2750,Beacon Hill,MA,2,1451,1900,66
+Boston,Single Family Residential,2398,2,,6160,Dorchester,MA,4,333,1890,66
+Boston,Condo/Co-op,536,1,336,,Seaport District,MA,1,1211,1916,66
+Boston,Condo/Co-op,2466,3,931,2466,South End,MA,3,852,1910,66
+Boston,Single Family Residential,1898,3.5,,1966,Neponset section of Dorchester,MA,3,326,1940,66
+Boston,Townhouse,821,1,348,,Back Bay,MA,1,1456,1850,66
+Boston,Townhouse,697,1,418,697,Back Bay,MA,1,1112,1890,67
+Boston,Condo/Co-op,1123,1,509,1230,Beacon Hill,MA,1,801,1880,67
+Boston,Multi-Family (2-4 Unit),2880,4,,9947,Brighton,MA,6,330,1965,67
+Boston,Multi-Family (2-4 Unit),3072,4,,4905,Dorchester's Lower Mills,MA,7,228,1935,67
+Boston,Multi-Family (2-4 Unit),3400,4,,1123,Beacon Hill,MA,3,1162,1899,67
+Boston,Condo/Co-op,2250,3,320,,Dorchester's Ashmont,MA,4,349,1920,67
+Boston,Single Family Residential,3551,3,,4560,Brighton,MA,5,310,1950,67
+Boston,Condo/Co-op,2510,3,2528,,Waterfront,MA,3,996,1972,67
+Boston,Condo/Co-op,1112,2,547,,Brighton,MA,2,783,2017,67
+Boston,Single Family Residential,1781,2,,6009,Boston,MA,4,264,1954,67
+Boston,Condo/Co-op,1327,2,1371,,Seaport District,MA,1,1830,2018,67
+Boston,Multi-Family (2-4 Unit),4389,3,,2536,Dorchester,MA,11,205,1890,67
+Boston,Condo/Co-op,2147,2,1417,,South End,MA,2,1211,1932,67
+Boston,Condo/Co-op,1098,2,400,,South Boston,MA,2,810,2018,67
+Boston,Condo/Co-op,1365,2,400,,South Boston,MA,2,842,2018,67
+Boston,Parking,,,180,,West End,MA,,,,68
+Boston,Condo/Co-op,820,1,648,820,North End,MA,1,1096,1899,68
+Boston,Condo/Co-op,1543,2,317,,South Boston,MA,2,713,1930,68
+Boston,Condo/Co-op,1423,2.5,1464,,Midtown,MA,2,1826,2016,68
+Boston,Multi-Family (5+ Unit),22039,28,,8273,Mission Hill,MA,35,499,2017,68
+Boston,Condo/Co-op,611,1,460,,South End,MA,1,1160,2017,69
+Boston,Multi-Family (2-4 Unit),2862,3,,6860,Dorchester,MA,9,297,1899,69
+Boston,Condo/Co-op,2152,3,1961,,Waterfront,MA,3,825,1989,69
+Boston,Multi-Family (2-4 Unit),3467,3,,4869,Boston,MA,6,234,1930,69
+Boston,Multi-Family (2-4 Unit),1992,2,,1164,East Boston's Jeffries Point,MA,3,628,1930,70
+Boston,Condo/Co-op,800,1,460,800,Boston,MA,1,1236,1905,72
+Boston,Condo/Co-op,1008,1.5,360,,Boston,MA,1,913,1871,72
+Boston,Condo/Co-op,1420,2,1669,,Midtown,MA,2,1479,2013,72
+Boston,Condo/Co-op,1219,2,897,1219,Waterfront,MA,2,779,1970,72
+Boston,Single Family Residential,1456,2,,3848,Boston,MA,4,268,1905,72
+Boston,Condo/Co-op,944,1,259,,Dorchester's Savin Hill,MA,2,391,1905,73
+Boston,Multi-Family (2-4 Unit),3311,3,,1514,Roxbury's Fort Hill,MA,8,423,1910,73
+Boston,Condo/Co-op,1131,1,709,,Mission Hill,MA,2,539,2011,73
+Boston,Condo/Co-op,798,1,500,,Mission Hill,MA,1,645,2011,73
+Boston,Condo/Co-op,9999,,131,,Midtown,MA,0,8,1968,74
+Boston,Townhouse,1210,1,272,1210,Brighton,MA,5,445,1910,74
+Boston,Condo/Co-op,1405,2.5,1073,1405,Brighton's Chestnut Hill,MA,2,819,2007,74
+Boston,Single Family Residential,2117,2.5,,803,South End,MA,3,1134,1892,74
+Boston,Single Family Residential,1140,1.5,,1602,South Boston,MA,3,622,1880,74
+Boston,Condo/Co-op,1254,2,978,,South End,MA,2,1195,2018,74
+Boston,Multi-Family (2-4 Unit),4044,3,,7299,Dorchester,MA,11,587,1900,74
+Boston,Townhouse,1055,2,167,1055,Boston,MA,2,559,1890,75
+Boston,Townhouse,1877,2.5,,,Charlestown,MA,3,671,2018,75
+Boston,Townhouse,1684,2.5,250,3047,Charlestown,MA,3,689,2018,75
+Boston,Condo/Co-op,1748,3,2934,,Midtown,MA,3,684,2001,75
+Boston,Condo/Co-op,1910,2.5,1703,1910,Waterfront,MA,3,720,2006,75
+Boston,Single Family Residential,2900,4,,4400,Roslindale,MA,3,334,2018,75
+Boston,Condo/Co-op,940,1,293,940,The Fenway,MA,3,786,1890,75
+Boston,Condo/Co-op,1060,1.5,653,,Charlestown's Navy Yard,MA,1,660,1989,75
+Brookline,Condo/Co-op,1300,2,1037,,Brookline,MA,2,673,1970,75
+Boston,Condo/Co-op,980,2,241,,South Boston,MA,2,1020,2018,76
+Boston,Condo/Co-op,1167,1,365,,South Boston,MA,1,753,2017,76
+Boston,Condo/Co-op,1779,2.5,2498,,Midtown,MA,2,2361,2016,76
+Boston,Condo/Co-op,959,2,397,,South End,MA,2,1173,2018,78
+Boston,Condo/Co-op,1036,2,424,,South End,MA,2,1158,2018,78
+Boston,Condo/Co-op,1313,2,277,,South Boston,MA,2,799,2015,79
+Boston,Townhouse,2261,3,1308,,Back Bay,MA,3,2340,1899,79
+Boston,Townhouse,4286,3,2614,,Back Bay,MA,3,2564,1899,79
+Boston,Condo/Co-op,2613,2.5,1489,,Jamaica Plain,MA,2,400,1989,79
+Boston,Condo/Co-op,877,2,585,,Midtown,MA,2,1059,2017,79
+Boston,Single Family Residential,2587,2.5,,9466,Hyde Park's Fairmount,MA,4,329,2018,79
+Boston,Condo/Co-op,891,2,614,,North End,MA,2,1088,2017,79
+Boston,Condo/Co-op,2142,3,1753,,Back Bay,MA,3,1137,2009,80
+Boston,Single Family Residential,1700,2.5,,3065,Dorchester's Neponset,MA,3,412,1905,80
+Boston,Condo/Co-op,845,1,889,,Jamaica Plain,MA,1,444,1964,80
+Boston,Multi-Family (2-4 Unit),4195,3,,3409,Dorchester's Uphams Corner,MA,6,162,1905,80
+Boston,Single Family Residential,2258,2.5,,1628,Charlestown,MA,3,1016,1860,80
+Boston,Condo/Co-op,1221,2,427,,South Boston,MA,2,736,2018,80
+Boston,Single Family Residential,2077,2.5,,6899,Highlands,MA,4,399,1955,80
+Boston,Condo/Co-op,1235,2,1383,1235,Back Bay,MA,2,1020,2004,80
+Boston,Single Family Residential,2506,3.5,,1052,Charlestown,MA,4,558,1903,81
+Boston,Condo/Co-op,1189,2,240,,East Boston,MA,3,572,2018,81
+Boston,Multi-Family (2-4 Unit),2068,2.5,,5825,Brighton,MA,5,459,1925,81
+Boston,Townhouse,2044,2.5,325,,Roslindale,MA,3,318,2018,81
+Boston,Single Family Residential,2594,3,,1107,Charlestown,MA,4,520,1890,81
+Boston,Condo/Co-op,813,1,548,,Seaport District,MA,2,1167,1916,81
+Boston,Condo/Co-op,2454,3.5,4244,,Seaport District,MA,3,2600,2019,81
+Boston,Condo/Co-op,2553,3.5,4549,,Seaport District,MA,3,3740,2019,81
+Boston,Single Family Residential,2979,3,,1906,Charlestown,MA,3,957,1853,81
+Boston,Condo/Co-op,1406,2,2384,,Seaport District,MA,2,2125,2019,81
+Boston,Condo/Co-op,2002,2.5,3398,,Seaport District,MA,3,2345,2019,81
+Boston,Condo/Co-op,2242,3.5,3044,,Back Bay,MA,3,1092,2004,81
+Boston,Condo/Co-op,1748,3,2813,1748,Midtown,MA,2,715,2004,81
+Boston,Multi-Family (2-4 Unit),4428,3,,2802,Dorchester,MA,9,203,1910,81
+Boston,Condo/Co-op,1551,2.5,322,1393,South End,MA,2,1157,1885,81
+Boston,Condo/Co-op,1305,2,260,2812,East Boston's Jeffries Point,MA,2,612,2018,81
+Boston,Condo/Co-op,1699,3,2171,,Back Bay,MA,3,1560,2004,82
+Boston,Condo/Co-op,570,1,395,,The Fenway,MA,1,1123,2016,82
+Boston,Condo/Co-op,810,1,491,810,Boston,MA,2,272,1960,82
+Boston,Condo/Co-op,2127,2.5,665,,South Boston,MA,3,705,2017,82
+Boston,Condo/Co-op,1509,2,2172,1509,Midtown,MA,2,563,2004,82
+Boston,Condo/Co-op,1283,2,718,1283,South Boston,MA,2,803,1906,82
+Boston,Multi-Family (2-4 Unit),4002,3,,5252,Boston,MA,9,177,1905,82
+Boston,Condo/Co-op,1351,2,765,1351,South End,MA,2,888,1914,82
+Boston,Multi-Family (2-4 Unit),4350,3,,2600,South Boston,MA,4,632,1900,82
+Boston,Condo/Co-op,1977,3,1840,,Boston,MA,3,1062,1972,82
+Boston,Single Family Residential,5090,3.5,,2205,South End,MA,5,1365,1900,83
+Boston,Condo/Co-op,2261,3,1500,,Beacon Hill,MA,3,1547,1850,83
+Boston,Condo/Co-op,1541,2,1000,,Beacon Hill,MA,2,1699,1850,83
+Boston,Condo/Co-op,4789,6,11533,,Back Bay,MA,4,2662,1929,83
+Boston,Condo/Co-op,4270,3.5,6603,,Midtown,MA,3,1850,2001,83
+Boston,Multi-Family (2-4 Unit),3324,4.5,,3324,Roslindale,MA,9,319,1920,83
+Boston,Condo/Co-op,750,1,,750,Dorchester,MA,2,412,1966,83
+Boston,Townhouse,3426,4.5,1245,3426,Back Bay,MA,3,1022,1850,84
+Boston,Condo/Co-op,1059,1.5,1782,1059,Midtown,MA,1,792,2004,84
+Boston,Condo/Co-op,1759,2,1130,,Waterfront,MA,2,926,1989,85
+Boston,Vacant Land,,,,1142,West Roxbury,MA,,,,86
+Boston,Condo/Co-op,3172,4.5,3362,,Midtown,MA,3,2522,2016,86
+Boston,Single Family Residential,1606,2,,3304,Dorchester's Lower Mills,MA,4,333,1935,86
+Boston,Townhouse,2756,3.5,1996,2756,Charlestown,MA,3,671,1987,86
+Milton,Condo/Co-op,2000,2.5,475,,Blue Hills,MA,2,575,1918,86
+Boston,Single Family Residential,1604,1.5,,4190,Mattapan,MA,4,311,1911,86
+Boston,Condo/Co-op,1254,2,300,1254,Boston,MA,3,359,2006,86
+Boston,Condo/Co-op,760,1,465,,Brighton,MA,2,591,1930,87
+Boston,Condo/Co-op,794,1,551,,North End,MA,1,1006,2017,87
+Boston,Single Family Residential,8350,5.5,,2016,Back Bay,MA,4,1856,1866,87
+Boston,Condo/Co-op,1766,2,984,,Back Bay,MA,2,1619,1910,87
+Boston,Condo/Co-op,2242,3.5,3262,,Midtown,MA,3,1137,2000,87
+Boston,Condo/Co-op,512,1,578,,Midtown,MA,0,1229,2009,87
+Boston,Townhouse,1154,2,412,,Back Bay,MA,2,1382,1910,87
+Boston,Condo/Co-op,99999,,23,,Brighton,MA,0,0,2015,88
+Boston,Condo/Co-op,1193,2,521,1193,Midtown,MA,2,754,1899,88
+Boston,Multi-Family (2-4 Unit),3147,3,,1837,Boston,MA,6,443,1900,88
+Boston,Single Family Residential,2185,2.5,,2836,Charlestown,MA,3,709,2018,88
+Boston,Condo/Co-op,675,1,360,,Midtown,MA,1,1030,1968,88
+Boston,Condo/Co-op,1143,2,521,,Charlestown,MA,2,665,2017,88
+Boston,Townhouse,2670,3.5,,,Charlestown,MA,3,869,2018,88
+Boston,Single Family Residential,3450,3.5,,3780,West Roxbury,MA,6,275,1907,88
+Boston,Condo/Co-op,1700,2.5,1202,,Back Bay,MA,2,1465,2017,89
+Boston,Condo/Co-op,1101,2,345,,Dorchester,MA,3,431,2017,89
+Boston,Condo/Co-op,1727,2.5,310,,South End,MA,2,868,1910,89
+Boston,Multi-Family (2-4 Unit),2763,3,,2504,South Boston,MA,6,651,1905,90
+Boston,Condo/Co-op,783,1,385,,Brighton,MA,1,798,2017,90
+Boston,Condo/Co-op,2307,2.5,4236,2307,Back Bay,MA,3,2599,2001,90
+Boston,Single Family Residential,1550,2,,3334,South Boston,MA,2,509,1993,90
+Brookline,Single Family Residential,2448,2.5,,45747,Brookline,MA,3,1017,1950,90
+Boston,Vacant Land,,,,82764,Roslindale,MA,,,,90
+Boston,Condo/Co-op,2500,2.5,885,2500,Back Bay,MA,2,1300,1900,91
+Boston,Condo/Co-op,1017,2,240,,East Boston,MA,3,575,1910,93
+Boston,Condo/Co-op,829,1.5,770,,Midtown,MA,1,1205,2017,93
+Boston,Condo/Co-op,1343,3,2402,1343,Midtown,MA,2,819,2004,94
+Boston,Condo/Co-op,1022,1,200,1022,East Boston,MA,3,518,1910,94
+Boston,Multi-Family (5+ Unit),5000,148.5,,1299,North End,MA,99,700,1905,94
+Boston,Multi-Family (2-4 Unit),2444,2,,2975,Brighton,MA,6,348,1905,94
+Boston,Condo/Co-op,1906,2.5,3632,,Back Bay,MA,2,2516,2008,94
+Boston,Condo/Co-op,1148,1,,,Dorchester,MA,2,365,2018,94
+Boston,Condo/Co-op,887,2,,,Roslindale,MA,2,601,2017,94
+Boston,Condo/Co-op,1327,2,942,,Charlestown's Navy Yard,MA,2,700,1899,94
+Boston,Condo/Co-op,421,1,717,,Waterfront,MA,0,1413,2006,94
+Boston,Condo/Co-op,773,1,360,,Brighton,MA,2,633,1925,95
+Boston,Townhouse,1790,2.5,250,,Roxbury's Fort Hill,MA,3,391,2018,95
+Boston,Condo/Co-op,810,1,425,810,The Fenway,MA,2,912,1927,95
+Boston,Multi-Family (2-4 Unit),9000,5,,5000,East Boston,MA,9,183,1900,95
+Boston,Condo/Co-op,1253,1,200,5000,Mattapan,MA,3,395,1925,95
+Boston,Townhouse,2475,2.5,1311,,Back Bay,MA,3,1648,1900,95
+Boston,Condo/Co-op,1405,2,959,1405,Midtown,MA,2,1164,2007,95
+Boston,Condo/Co-op,1285,2,615,,Back Bay,MA,2,933,1910,95
+Boston,Condo/Co-op,1536,1.5,200,,Dorchester's Codman Square,MA,3,227,1910,96
+Boston,Single Family Residential,1952,2.5,,3120,Dorchester,MA,5,307,1900,96
+Boston,Condo/Co-op,1207,2,9999999,,South Boston,MA,2,778,2018,97
+Boston,Condo/Co-op,5998,5,8937,,Beacon Hill,MA,4,3001,2019,97
+Boston,Condo/Co-op,524,1,265,,Kenmore Square,MA,1,1164,1910,97
+Boston,Condo/Co-op,452,1,311,452,Boston,MA,1,662,1900,98
+Boston,Condo/Co-op,574,1,489,,South End,MA,1,1315,2018,98
+Paxton,Single Family Residential,2900,2.5,,,Paxton,MA,4,116,1971,99
+Boston,Condo/Co-op,1687,2,1081,,South End,MA,3,1349,2016,100
+Boston,Condo/Co-op,1170,2,9999,,Jamaica Plain,MA,2,722,2019,100
+Boston,Condo/Co-op,1194,2,9999,,Jamaica Plain,MA,2,649,2019,100
+Boston,Condo/Co-op,925,1,9999,,Jamaica Plain,MA,1,643,2019,100
+Boston,Condo/Co-op,1033,2,9999,,Jamaica Plain,MA,2,629,2019,100
+Boston,Condo/Co-op,1170,2,9999,,Jamaica Plain,MA,2,628,2019,100
+Brookline,Condo/Co-op,1300,2,1085,,Brookline,MA,2,677,1970,100
+Newton,Single Family Residential,3683,4,,6250,Newton,MA,4,488,1930,101
+Boston,Townhouse,2400,2.5,,1868,Boston,MA,4,542,2001,101
+Boston,Multi-Family (2-4 Unit),2400,2,,1616,Boston,MA,4,542,1920,101
+Boston,Townhouse,1531,2.5,260,,Roxbury's Fort Hill,MA,2,430,2018,101
+Boston,Townhouse,1277,2.5,221,,Roxbury's Fort Hill,MA,2,435,2018,101
+Boston,Condo/Co-op,1035,1.5,1022,1035,Midtown,MA,1,1304,2009,101
+Boston,Condo/Co-op,982,1,135,982,South End,MA,1,712,1890,101
+Boston,Condo/Co-op,1180,1,649,1180,Seaport District,MA,2,1016,1911,101
+Boston,Condo/Co-op,648,1,203,,North End,MA,1,810,1900,101
+Boston,Single Family Residential,3000,4,,2800,Jamaica Plain,MA,9,466,1910,102
+Boston,Multi-Family (2-4 Unit),2000,3,,2090,Roxbury,MA,6,485,1899,102
+Boston,Multi-Family (2-4 Unit),4476,5,,2570,Mission Hill,MA,15,519,1935,102
+Boston,Townhouse,1979,2.5,250,,Jamaica Plain,MA,3,493,2015,102
+Boston,Condo/Co-op,2223,1.5,650,,Financial District,MA,2,810,1890,102
+Boston,Condo/Co-op,3573,3.5,4972,,Seaport District,MA,4,3219,2018,102
+Boston,Townhouse,1500,2.5,250,,Roxbury's Fort Hill,MA,3,433,2018,102
+Boston,Townhouse,1900,2.5,250,,Roxbury's Fort Hill,MA,3,368,2018,102
+Boston,Condo/Co-op,1246,2,250,,East Boston,MA,2,542,2018,103
+Boston,Condo/Co-op,1016,1.5,614,,Seaport District,MA,1,1771,2018,103
+Boston,Condo/Co-op,1625,3,1900,1625,Midtown,MA,3,1323,2013,103
+Boston,Single Family Residential,1800,2,,4350,Jamaica Plain,MA,4,417,1962,103
+Boston,Townhouse,2406,3,367,2406,South End,MA,3,1203,1900,103
+Boston,Townhouse,1193,2,200,,South Boston's City Point,MA,2,683,1875,103
+Boston,Condo/Co-op,1139,2,266,,South Boston,MA,2,966,2018,103
+Boston,Condo/Co-op,892,1,745,,West End,MA,1,695,1964,104
+Boston,Condo/Co-op,660,1,277,,South End,MA,2,905,1875,107
+Boston,Condo/Co-op,1521,2,544,,South Boston,MA,3,789,2017,107
+Boston,Condo/Co-op,1063,1,277,,Dorchester,MA,3,226,1905,107
+Boston,Condo/Co-op,1148,2,99999,,Roxbury,MA,3,435,1905,107
+Boston,Condo/Co-op,1148,2,8333,,Roxbury,MA,3,426,1905,107
+Boston,Condo/Co-op,1126,2,999999,,Roxbury,MA,2,417,1905,107
+Boston,Single Family Residential,2585,2,,3081,Boston,MA,8,193,1900,107
+Boston,Condo/Co-op,726,1,499,,North End,MA,1,1045,2017,108
+Boston,Condo/Co-op,695,1,350,695,Brighton,MA,2,603,1899,108
+Boston,Condo/Co-op,1572,2.5,2054,,Midtown,MA,2,1113,2000,108
+Boston,Condo/Co-op,2007,2,,2007,Roxbury,MA,5,219,1890,108
+Boston,Condo/Co-op,864,1,960,,Charlestown,MA,1,520,1920,108
+Boston,Single Family Residential,2007,2,,2007,Roxbury,MA,5,219,1890,109
+Boston,Condo/Co-op,1487,2,175,1487,Dorchester's Ashmont,MA,3,376,1910,109
+Boston,Condo/Co-op,1113,1.5,,,Boston,MA,3,337,1960,109
+Boston,Condo/Co-op,2667,3.5,3685,2667,Midtown,MA,3,1160,2000,109
+Boston,Condo/Co-op,1455,2,175,,Boston,MA,3,546,1899,109
+Boston,Condo/Co-op,1584,2,491,,South Boston,MA,2,1009,2018,110
+Boston,Single Family Residential,6344,4.5,,8677,Grove Hall section of Roxbury,MA,7,120,1920,110
+Boston,Condo/Co-op,965,1.5,1638,965,Midtown,MA,1,715,2000,110
+Boston,Condo/Co-op,1664,2.5,1995,,Waterfront,MA,2,1081,2006,111
+Boston,Condo/Co-op,3323,2.5,942,,Midtown,MA,3,993,1832,111
+Boston,Condo/Co-op,3480,3.5,1513,3230,Beacon Hill,MA,3,1135,1930,111
+Boston,Single Family Residential,1942,2,,724,8 Streets Neighborhood,MA,3,844,1840,111
+Boston,Multi-Family (2-4 Unit),3456,3.5,,3891,Boston,MA,6,246,1927,113
+Boston,Multi-Family (2-4 Unit),3000,3.5,,863,Bay Village,MA,4,795,1890,113
+Boston,Condo/Co-op,1226,2,250,2465,South Boston,MA,2,766,2018,113
+Boston,Condo/Co-op,2344,3,2993,,The Fenway,MA,3,2007,2018,114
+Boston,Condo/Co-op,1643,2.5,1284,1643,Waterfront,MA,2,715,1970,114
+Boston,Vacant Land,,,,126324,Jamaica Plain,MA,,,,115
+Boston,Condo/Co-op,1227,2,377,4171,South Boston,MA,2,814,2018,115
+Boston,Condo/Co-op,794,1,312,,North End,MA,1,724,1901,115
+Boston,Condo/Co-op,1302,2,568,,Back Bay,MA,2,1225,1871,115
+Boston,Condo/Co-op,612,1,453,612,The Fenway,MA,1,923,2016,116
+Boston,Single Family Residential,3827,3.5,,1485,Gas Light District,MA,5,594,1860,116
+Boston,Multi-Family (2-4 Unit),4301,7.5,,3960,Brighton,MA,9,256,1900,117
+Boston,Multi-Family (2-4 Unit),2900,3.5,,,South End,MA,5,1052,1899,117
+Boston,Townhouse,2900,3.5,,,South End,MA,5,1052,1899,117
+Boston,Condo/Co-op,831,1,547,,South Boston,MA,1,1034,2018,117
+Boston,Condo/Co-op,1966,1.5,215,2939,Jamaica Plain,MA,4,338,1910,117
+Boston,Condo/Co-op,2450,2.5,3020,,Beacon Hill,MA,3,1854,2019,117
+Boston,Condo/Co-op,1687,2.5,1971,,Beacon Hill,MA,2,1647,2019,117
+Boston,Condo/Co-op,894,1,872,,Beacon Hill,MA,1,1528,2019,117
+Boston,Condo/Co-op,2033,2.5,2526,,Beacon Hill,MA,2,1848,2019,117
+Boston,Townhouse,1633,2,627,,Back Bay,MA,3,1225,1870,117
+Boston,Multi-Family (2-4 Unit),2116,4,,2888,Boston,MA,8,472,1900,118
+Boston,Multi-Family (2-4 Unit),2280,4,,3340,Boston,MA,6,377,1900,118
+Boston,Condo/Co-op,1395,1,152,2780,Jamaica Plain,MA,3,419,1910,118
+Boston,Multi-Family (2-4 Unit),3416,2.5,,2780,Jamaica Plain,MA,7,366,1910,118
+Boston,Condo/Co-op,5410,3.5,3356,,Back Bay,MA,3,1848,1890,119
+Boston,Multi-Family (2-4 Unit),3176,3,,6375,Brighton,MA,8,628,,120
+Boston,Single Family Residential,2678,4,,6722,Dorchester's Uphams Corner,MA,4,447,1890,120
+Boston,Condo/Co-op,1376,2,879,1376,Dorchester's Lower Mills,MA,2,527,1900,121
+Boston,Single Family Residential,1374,2.5,,1158,Roxbury,MA,3,335,1905,121
+Boston,Condo/Co-op,2288,3,1797,2288,Jamaica Plain,MA,2,372,1982,122
+Boston,Condo/Co-op,1073,1,,,Roslindale,MA,1,497,2018,122
+Boston,Condo/Co-op,929,1,,,Roslindale,MA,1,574,2018,122
+Boston,Condo/Co-op,1871,2.5,2040,,Back Bay,MA,2,1277,2009,122
+Boston,Condo/Co-op,762,1,666,,The Fenway,MA,1,1641,2018,122
+Boston,Condo/Co-op,1145,2,638,,Back Bay,MA,2,1585,1900,123
+Boston,Condo/Co-op,2674,3,521,,Beacon Hill,MA,3,1154,1880,123
+Newton,Single Family Residential,6846,6,,40000,Chestnut Hill,MA,5,613,1930,123
+Boston,Condo/Co-op,1399,2,1229,,South Boston,MA,2,950,2018,123
+Boston,Condo/Co-op,3480,3.5,933,,Back Bay,MA,4,1494,1900,123
+Boston,Multi-Family (2-4 Unit),1897,3,,1400,Dorchester,MA,3,290,1900,124
+Boston,Condo/Co-op,1669,2,225,,Boston,MA,3,221,2005,125
+Boston,Condo/Co-op,2096,3,2604,,Midtown,MA,3,2049,2016,125
+Boston,Condo/Co-op,2131,3,1678,,Seaport District,MA,3,1290,2005,125
+Boston,Condo/Co-op,1085,2,250,,East Boston,MA,2,553,2018,128
+Milton,Townhouse,1800,2,475,,Blue Hills,MA,2,458,2018,128
+Boston,Condo/Co-op,627,1,241,627,East Boston's Jeffries Point,MA,1,652,1899,128
+Boston,Condo/Co-op,1155,2,200,2465,South Boston,MA,2,752,2018,129
+Boston,Condo/Co-op,1172,2,200,2465,South Boston,MA,2,741,2018,129
+Boston,Condo/Co-op,1155,2,200,2465,South Boston,MA,2,726,2018,129
+Boston,Condo/Co-op,1172,2,200,2465,South Boston,MA,2,716,2018,129
+Boston,Condo/Co-op,1140,2,1230,,Midtown,MA,2,1224,2013,129
+Boston,Condo/Co-op,2049,2,340,,Roxbury's Fort Hill,MA,3,292,1875,130
+Boston,Condo/Co-op,1390,2,377,,Back Bay,MA,2,1294,2018,130
+Boston,Condo/Co-op,1500,2,770,750,Waterfront,MA,4,1400,1987,130
+Boston,Vacant Land,,,,92450,Hyde Park's Fairmount,MA,,,,131
+Boston,Condo/Co-op,959,1,508,,South Boston,MA,1,954,2018,131
+Boston,Condo/Co-op,1747,2.5,2330,,Midtown,MA,2,829,2004,131
+Boston,Condo/Co-op,1393,2,2034,,Midtown,MA,1,1291,2009,132
+Boston,Condo/Co-op,943,1,250,,Dorchester's Fields Corner,MA,2,359,1905,134
+Boston,Condo/Co-op,1120,1,1143,1120,Waterfront,MA,2,838,1871,136
+Boston,Single Family Residential,4412,4.5,,1306,Beacon Hill,MA,6,1009,1899,136
+Boston,Condo/Co-op,2025,2.5,808,,Bay Village,MA,2,1259,2018,136
+Boston,Townhouse,3543,4.5,1887,,Back Bay,MA,3,1890,1900,137
+Boston,Single Family Residential,2136,3.5,,3550,Dorchester,MA,4,318,1900,137
+Boston,Condo/Co-op,1743,3,2032,,Midtown,MA,3,1118,2013,137
+Boston,Condo/Co-op,2103,2.5,1032,,Seaport District,MA,2,832,2004,138
+Boston,Multi-Family (2-4 Unit),2392,3,,4222,Boston,MA,6,284,1966,139
+Milton,Vacant Land,,,,63423,Milton,MA,,,,140
+Boston,Condo/Co-op,2311,2.5,,,Back Bay,MA,3,1298,2018,140
+Boston,Condo/Co-op,845,1,340,845,Allston,MA,3,485,1910,142
+Boston,Condo/Co-op,1486,2,1779,,Midtown,MA,2,2153,2016,142
+Boston,Condo/Co-op,2200,3,1925,,Back Bay,MA,4,1318,1908,143
+Boston,Condo/Co-op,1292,2,465,1292,Back Bay,MA,2,1005,1900,144
+Boston,Townhouse,1428,2,300,1384,Beacon Hill,MA,2,1155,1900,144
+Boston,Condo/Co-op,2355,2.5,3290,,Beacon Hill,MA,3,1316,1886,144
+Boston,Single Family Residential,1232,1.5,,5625,Hyde Park,MA,2,183,1900,145
+Boston,Multi-Family (2-4 Unit),4542,6,,5400,Boston,MA,14,550,1950,146
+Boston,Condo/Co-op,1467,2,524,,South Boston,MA,3,716,2017,146
+Boston,Condo/Co-op,2971,4.5,4698,,Midtown,MA,3,1430,2000,147
+Boston,Multi-Family (2-4 Unit),,2,,,Roslindale,MA,3,,1935,148
+Boston,Condo/Co-op,958,1,666,871,Back Bay,MA,2,861,1986,149
+Boston,Condo/Co-op,1840,2.5,1155,99999,Beacon Hill,MA,3,1247,1880,150
+Boston,Condo/Co-op,610,1,491,610,Beacon Hill,MA,1,1080,1952,151
+Boston,Condo/Co-op,1238,2,1435,1238,Back Bay,MA,2,1204,2004,151
+Boston,Condo/Co-op,2707,3.5,4131,2707,Midtown,MA,3,1403,1999,151
+Boston,Condo/Co-op,1541,2,948,,Mission Hill,MA,2,532,2011,151
+Milton,Single Family Residential,3271,2.5,,52670,The Loew Estate,MA,5,348,1994,151
+Boston,Townhouse,1838,2.5,675,,Beacon Hill,MA,2,1387,1890,152
+Boston,Multi-Family (5+ Unit),5982,13,,3484,Jamaica Plain's Forest Hills,MA,15,785,2016,153
+Boston,Single Family Residential,2432,1,,6000,Boston,MA,3,201,1900,154
+Boston,Parking,,,,260,Back Bay,MA,,,,155
+Boston,Single Family Residential,4745,4,,2623,Back Bay,MA,5,1054,1872,155
+Boston,Condo/Co-op,1200,2,535,,South Boston,MA,2,917,2017,155
+Boston,Condo/Co-op,1220,2,1246,,Waterfront,MA,2,902,2006,157
+Boston,Condo/Co-op,1793,3,1110,,Brighton,MA,3,948,2017,157
+Boston,Condo/Co-op,2300,3,1311,,Back Bay,MA,4,1630,1900,157
+Boston,Condo/Co-op,1116,2.5,361,16211,South End,MA,2,1210,2017,158
+Boston,Condo/Co-op,773,1,676,773,Waterfront,MA,1,873,1972,158
+Boston,Townhouse,3335,3,1075,,Jamaica Plain,MA,3,300,1979,158
+Boston,Condo/Co-op,1733,2,397,1733,Back Bay,MA,2,1036,1876,158
+Boston,Condo/Co-op,982,1,1111,982,Back Bay,MA,1,988,1987,160
+Revere,Multi-Family (2-4 Unit),3483,3,,5000,Revere,MA,6,230,1900,160
+Boston,Townhouse,5703,4.5,,,Beacon Hill,MA,4,2805,1852,160
+Boston,Multi-Family (2-4 Unit),2454,3.5,,3120,Roxbury,MA,4,350,1880,163
+Boston,Single Family Residential,1432,1.5,,4559,Lower Mills,MA,4,405,1920,163
+Boston,Condo/Co-op,1215,1.5,1035,,Waterfront,MA,2,892,1972,164
+Boston,Condo/Co-op,860,1.5,1131,,Waterfront,MA,1,1163,2006,165
+Boston,Multi-Family (2-4 Unit),2666,4,,5000,Roslindale,MA,6,243,1910,166
+Boston,Single Family Residential,5165,3.5,,2016,Back Bay,MA,5,1257,1869,166
+Boston,Condo/Co-op,1471,2,1580,,Midtown,MA,2,1900,2016,167
+Boston,Condo/Co-op,4318,6,4393,,Midtown,MA,4,2235,2016,171
+Boston,Condo/Co-op,766,1,1156,,Charlestown's Navy Yard,MA,2,625,1920,172
+Boston,Condo/Co-op,1734,2,805,,South End,MA,3,689,1899,173
+Boston,Condo/Co-op,1036,2,406,,South End,MA,2,1110,2018,174
+Boston,Condo/Co-op,1308,2,1532,,Midtown,MA,2,1191,2013,174
+Boston,Multi-Family (2-4 Unit),3096,3,,3000,Jamaica Plain,MA,9,412,1890,174
+Boston,Condo/Co-op,2667,4.5,3864,,Midtown,MA,3,1235,2001,175
+Boston,Condo/Co-op,1510,2,671,,South Boston,MA,3,979,2017,175
+Boston,Condo/Co-op,3006,3.5,718,,Back Bay,MA,3,1329,,178
+Boston,Multi-Family (5+ Unit),6081,6,,5105,Roslindale,MA,10,378,1899,178
+Boston,Condo/Co-op,1336,2,822,1102,Mission Hill,MA,2,539,2011,179
+Boston,Single Family Residential,3612,2.5,,1401,Beacon Hill,MA,3,995,1883,180
+Boston,Condo/Co-op,1998,2.5,1707,,Midtown,MA,3,1226,2009,185
+Boston,Condo/Co-op,3715,4.5,3245,,Back Bay,MA,5,1992,2018,188
+Boston,Condo/Co-op,1474,2.5,3050,,Back Bay,MA,2,1492,2000,189
+Boston,Townhouse,1823,3,224,,Roxbury,MA,2,329,1860,195
+Boston,Multi-Family (5+ Unit),4278,6.5,,2882,East Boston's Jeffries Point,MA,9,514,1905,198
+Boston,Multi-Family (2-4 Unit),2777,2.5,,680,Beacon Hill,MA,3,1278,1899,199
+Boston,Condo/Co-op,2840,2.5,2715,,Back Bay,MA,3,2324,2018,201
+Boston,Multi-Family (2-4 Unit),2154,3,,6496,Boston,MA,6,511,1900,204
+Boston,Condo/Co-op,1100,1,275,,Brighton,MA,2,508,1914,205
+Boston,Condo/Co-op,604,1,521,604,Waterfront,MA,1,1093,2006,205
+Boston,Condo/Co-op,1227,2,365,,South Boston,MA,2,814,2017,207
+Boston,Condo/Co-op,1249,2,347,,South Boston,MA,2,688,2017,207
+Boston,Condo/Co-op,1971,2.5,1,1,Back Bay,MA,2,1420,1900,215
+Boston,Condo/Co-op,1162,2,1252,,Midtown,MA,2,1291,2013,215
+Boston,Multi-Family (2-4 Unit),2916,3,,9000,Roxbury,MA,8,308,1890,215
+Boston,Condo/Co-op,4189,4,1495,,Boston,MA,4,666,1899,220
+Boston,Condo/Co-op,1483,2.5,2035,1483,Waterfront,MA,2,1210,2006,234
+Boston,Parking,,,,999,Waterfront,MA,,,,237
+Milton,Townhouse,2400,2.5,475,,Blue Hills,MA,2,410,2018,238
+Boston,Condo/Co-op,857,1,537,,Brighton,MA,2,910,2017,244
+Boston,Single Family Residential,1972,3,,620,Beacon Hill,MA,3,1009,1827,249
+Boston,Single Family Residential,4528,4.5,,1091,Waterfront,MA,5,1049,1899,250
+Boston,Condo/Co-op,3435,3,785,,Boston,MA,2,872,1832,251
+Boston,Condo/Co-op,2563,2.5,1784,2563,Financial District,MA,3,759,1900,252
+Boston,Condo/Co-op,720,1,273,720,Hyde Park,MA,1,229,1970,256
+Boston,Townhouse,4770,4.5,1920,6753,West Roxbury's Chestnut Hill,MA,4,325,1994,269
+Boston,Condo/Co-op,1573,2.5,2150,1573,Midtown,MA,2,1268,1999,271
+Boston,Condo/Co-op,1520,2,610,,South Boston,MA,3,789,2017,275
+Boston,Condo/Co-op,1026,1,367,,South Boston,MA,1,731,2017,276
+Boston,Condo/Co-op,1707,3,1599,,South Boston,MA,2,1347,2017,277
+Boston,Condo/Co-op,1509,3,,,Roslindale,MA,3,464,2017,283
+Boston,Condo/Co-op,1224,2,1081,,South Boston,MA,2,955,2017,284
+Boston,Condo/Co-op,3500,3.5,6555,,Back Bay,MA,3,3857,2008,284
+Boston,Condo/Co-op,1134,2,910,,South Boston,MA,2,881,2017,284
+Boston,Single Family Residential,3401,3.5,,1089,Beacon Hill,MA,4,1232,1909,290
+Boston,Condo/Co-op,3319,4.5,6489,3319,Back Bay,MA,4,2079,1910,291
+Boston,Townhouse,3300,3.5,3900,,Back Bay,MA,3,1364,1900,291
+Boston,Condo/Co-op,2653,3.5,3450,,Waterfront,MA,3,1468,2008,292
+Boston,Condo/Co-op,1068,1,663,1068,Back Bay,MA,1,983,1890,296
+Boston,Parking,,,131,,Midtown,MA,,,,299
+Boston,Parking,,,131,,Midtown,MA,,,,299
+Boston,Condo/Co-op,3583,3.5,6151,,Beacon Hill,MA,3,2610,2017,303
+Boston,Condo/Co-op,2913,2.5,1905,2913,West Roxbury's Chestnut Hill,MA,2,343,1989,304
+Boston,Condo/Co-op,2426,3.5,3721,,Back Bay,MA,3,3071,1987,307
+Boston,Multi-Family (2-4 Unit),3056,3,,11423,Dorchester's Ashmont,MA,6,321,1900,309
+Boston,Condo/Co-op,4617,3.5,,,Beacon Hill,MA,3,1684,1900,317
+Boston,Single Family Residential,4783,3.5,,4783,Jamaica Plain,MA,4,480,1899,318
+Boston,Condo/Co-op,1874,3,2389,1874,Back Bay,MA,3,1454,2004,326
+Boston,Single Family Residential,1066,2,,660,Beacon Hill,MA,3,1402,1890,330
+Boston,Condo/Co-op,1486,2,1708,,Midtown,MA,2,1918,2016,332
+Boston,Parking,,,,,Beacon Hill,MA,,,,333
+Boston,Single Family Residential,6550,4.5,,1496,Beacon Hill,MA,4,1373,1899,334
+Boston,Condo/Co-op,744,1.5,,,Roslindale,MA,1,641,2017,334
+Boston,Condo/Co-op,3560,4,9999,,Back Bay,MA,4,2191,1872,355
+Boston,Condo/Co-op,2360,2.5,9999,,Back Bay,MA,2,1398,1872,355
+Boston,Condo/Co-op,1417,2.5,215,,Boston,MA,3,318,2007,366
+Boston,Condo/Co-op,1634,2,385,,South Boston,MA,3,887,2017,408
+Boston,Condo/Co-op,1514,2.5,1717,,Back Bay,MA,2,2113,2009,410
+Boston,Parking,,,,,Beacon Hill,MA,,,,455
+Boston,Single Family Residential,7500,7.5,,2759,Beacon Hill,MA,6,1199,1830,482
+Boston,Condo/Co-op,3013,3.5,791,,Beacon Hill,MA,3,1226,1899,544
+Boston,Multi-Family (2-4 Unit),4172,2,,5944,Dorchester,MA,8,134,1925,695
+Boston,Condo/Co-op,2222,3.5,2689,,Midtown,MA,3,2383,2016,730
+Boston,Condo/Co-op,1113,2,677,,South End,MA,2,1253,1916,752
+Boston,Single Family Residential,1200,2,,8871,Hyde Park,MA,3,458,1920,762
+Boston,Townhouse,2050,2.75,,9067,Boston,MA,3,520,2018,15
+Boston,Single Family Residential,2044,2.5,,2469,Boston,MA,5,381,1900,26
+Boston,Condo/Co-op,745,1,,871,Boston,MA,2,805,1900,116
+Boston,Condo/Co-op,695,1,,,Boston,MA,1,1367,1900,189
+Boston,Multi-Family (2-4 Unit),3700,4.5,,1135,Boston,MA,9,757,1910,281
+Boston,Condo/Co-op,740,1,,740,Boston,MA,2,554,1900,303
+Milton,Townhouse,1825,2,,,Woodmere at Brush Hill,MA,2,452,,
+Milton,Townhouse,2400,2.5,,,Woodmere at Brush Hill,MA,2,398,,
+Milton,Townhouse,2610,2.5,,,Woodmere at Brush Hill,MA,3,379,,
+Milton,Condo/Co-op,1911,2.5,,,Woodmere At Brush Hill,MA,2,602,,
+,,,,,,,,,,,
