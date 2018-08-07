@@ -6,3 +6,5 @@ Acumos Property Assistant/
 *-model
 *.zip
 *.html
+.vscode
+assets/active_predictions.csv

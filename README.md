@@ -105,7 +105,7 @@ The model is encapsulated within the acumos_model picked object.
 </pre>
 
 The Acumos Property Assistant is contained and can be exported for use in any project.
-I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies and run this on the command line via `python3 server.py`.
+I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies (ex: `pip3 install -r requirements.txt`) and run this on the command line via `python3 server.py`.
 
 <p align="center">
     <img src="img/flask.png" width="500"/>
