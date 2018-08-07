@@ -133,20 +133,17 @@ This container is also usable via docker by downloading the tar file from the Ac
 <pre>
     docker load -i acumospropertyassistant_169be6ae-39b0-4368-809e-8ddf3a2248e6_2.tar     
     docker images # find your container
-    docker run -p 3330:3330 {CONTAINER_ID}
+    docker run -p 3330:3330 -p 3001:3001 {CONTAINER_ID}
 </pre>
 
-
-
-This will now expose the port for invocation with the named tuple via the `appraise` method.
+This will now expose the port for invocation with the named tuple via the `appraise` method on port 3330, as well as the flask server (launchable via `python3 server.py`)
+on port 3001 once dependencies installed in the container.
 
 Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-challenge-getting-started.html
 
-
-
 #### Project Details
 - [x] Written description of the Submission (must be in English)
-- [ ] Summary Video (Must be in English) = 
+- [x] Summary Video (Must be in English) = https://www.youtube.com/watch?v=pAmsND677A8
 - [x] Sample input dataset - `assets/test_data.csv`
 - [x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
 - [x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
