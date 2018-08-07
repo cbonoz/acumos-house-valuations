@@ -1,11 +1,38 @@
+
+# coding: utf-8
+
+# <img src="assets/assistant_logo.png"/>
+# 
+# # Acumos Property Assistant
+# 
+# What's my Home Worth?
+# 
+# Many real estate agents follow a notion of comps (or comparables) when pricing a home. Problem here is that this is often subject to an individual realtors' biases and often only looks at 2-3 properties in the area as a comparison.
+# 
+# What's my home worth is a machine learning model deployed on the Acumos store for pricing your home based on fundamental property characteristics.
+# 
+# More specifically, we survey the intrinsic properties of a home, such as number of bathrooms, number of bedrooms, square footage, and location, as sampled from the Redfin website (www.redfin.com), and allow users to price their home using a large dataset of collected properties.
+# 
+# By no means is this an exhaustive model, but should give users as idea of what their home (or someone else's home) is at worth in the current market.
+# 
+# 
+# 
+
+# In[12]:
+
+
 import os
 import shutil
 
 import numpy as np
 import scipy as sp
+import matplotlib as mp
+import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import math
+# import xgboost as xgb
+import gc
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn import linear_model
@@ -18,16 +45,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
-
-import os
-from flask import request, jsonify, Flask
-from flask_cors import CORS
-import json
-
-app = Flask(__name__)
-CORS(app)
-
-PORT = 3001
 
 pw = os.environ['ACUMOS_PASSWORD']
 user = os.environ['ACUMOS_USERNAME']
@@ -45,15 +62,28 @@ session = AcumosSession()
 
 print('done')
 
+
+# In[13]:
+
+
 REDFIN_TRAIN_CSV = os.path.join("assets","redfin_2018_8_boston.csv")
+REDFIN_TEST_CSV = os.path.join("assets", "redfin_2018_active_boston.csv")
+
+
+# In[14]:
+
 
 def rename_col(x):
     return x.lower().replace(' ', '_').replace('$', 'cost').replace('/', '_per_')
 
 
 # ### Main Redfin Acumos Model
-#
+# 
 # Using recently sold properties to predict current property values, includes qualitative (encoded) and quantitative metrics.
+
+# In[15]:
+
+
 class RedfinAcumosModel:
     URL_COL = 'URL (SEE http://www.redfin.com/buy-a-home/comparative-market-analysis FOR INFO ON PRICING)'
     DROP_COLS = list(map(rename_col, [URL_COL, 'NEXT OPEN HOUSE START TIME', 'FAVORITE', 'INTERESTED', 'ZIP', 'SALE TYPE',
@@ -233,17 +263,41 @@ def reformat_test_data(data):
     return data
 
 
+# In[16]:
+
+
+
 train = reformat_train_data(pd.read_csv(REDFIN_TRAIN_CSV))
 train_cols = train.columns.values
 print(train_cols)
 np.set_printoptions(precision=2) #2 decimal places
 np.set_printoptions(suppress=True) #remove scientific notation
 
+
+
+# This is the list of core property types as used by Redfin
+
+# In[17]:
+
+
+set(train['property_type'])
+
+
+# In[18]:
+
+
 redfin = RedfinAcumosModel()
 
 model_cols = redfin.get_formatted_test_cols(train)
 print(model_cols)
 # print(len(model_cols))
+
+
+
+# ### These are the required dataframe input arguments for the model.
+
+# In[19]:
+
 
 # items is the model_cols list from the previous slide
 items = [('baths', List[str]), ('beds', List[str]), ('square_feet', List[str]), ('property_type', List[float]), ('year_built', List[float]), ('lot_size', List[float]), ('hoa_per_month', List[str]), ('days_on_market', List[float]), ('location', List[float]), ('state', List[float]), ('city', List[float])]
@@ -255,9 +309,80 @@ HouseDataFrame = create_namedtuple('HouseDataFrame', items)
 # HouseDataFrame = create_dataframe('HouseDataFrame', X_df)
 print(HouseDataFrame.__doc__)
 
+
+# In[20]:
+
+
 df = redfin.process_data(train, True)
 redfin.df = df
 redfin.df.info()
+
+# These are the list of actual encoded columns to be used in the model
+
+
+# In[21]:
+
+
+# redfin.y.describe()
+
+
+# In[ ]:
+
+
+
+
+
+# In[22]:
+
+
+corr = df.corr()
+plt.figure(figsize=(16, 9))
+sns.heatmap(corr, vmax=1, square=True)
+
+
+# In[23]:
+
+
+# Reduced correlation
+location_cols = filter(lambda x: "location" in x or 'city' in x, df.columns.values)
+reduced_df = df.drop(location_cols, axis=1)
+corr = reduced_df.corr()
+plt.figure(figsize=(16, 9))
+sns.heatmap(corr, vmax=1, square=True)
+
+# State variable would become relevant if we ran this home valuation on a state border. In this model, we keep the region local.
+
+
+# In[24]:
+
+
+# IrisDataFrame = create_namedtuple('IrisDataFrame', [('sepal_length', List[str])])
+
+# predict(redfin.X)
+
+
+# In[25]:
+
+
+raw_test_df = pd.read_csv(REDFIN_TEST_CSV)
+test_data = reformat_test_data(raw_test_df)
+print(test_data.info())
+
+
+# In[26]:
+
+
+# raw_test_df[raw_cols] = raw_test_df[raw_cols].astype(str)
+
+
+# In[ ]:
+
+
+
+
+
+# In[27]:
+
 
 def appraise(data: HouseDataFrame) -> List[float]:
     res = pd.DataFrame([data], columns=HouseDataFrame._fields)
@@ -271,33 +396,104 @@ def predict(data):
     # print('Using %d Calculated Features for Valuation' % len(test_df.columns.values))
     return redfin.model.predict(test_df)
 
+
+# In[28]:
+
+
+# results = predict(test_data)
+acumos_test_data = pd.read_csv('assets/test_data.csv')
+acumos_test_data = acumos_test_data.interpolate()
+print(acumos_test_data.columns.values)
+results = predict(acumos_test_data)
+
+
+# In[29]:
+
+
+result_df = pd.DataFrame()
+result_df['address'] = raw_test_df['ADDRESS']
+result_df['city'] = raw_test_df['CITY']
+result_df['state'] = raw_test_df['STATE']
+result_df['listing_price'] = raw_test_df['PRICE']
+result_df['prediction'] = results
+
+print("First 20 Predictions of Active Listings\n===")
+print(result_df[:20])
+
+print("\nMean Estimated Price of ALL current listings: $%.2f" % np.mean(results))
+
+result_df.to_csv('assets/active_predictions.csv')
+print('write predictions to csv')
+
+
+# In[30]:
+
+
+raw_test_df['predicted'] = results
+
+
+# In[31]:
+
+
+print(model_cols)
+
+
+# In[32]:
+
+
+# print(redfin.X.columns.values)
+print(results)
+
+
+# In[33]:
+
+
+cols = list(filter(lambda x: 'property' not in x and 'location' not in x and 'city' not in x, redfin.X.columns.values))
+
+# print(test_df[:10])
+print(cols)
+
+
+# In[34]:
+
+
 acumos_model = Model(appraise=appraise)
+if os.path.isdir(MODEL_PATH):
+    shutil.rmtree(MODEL_PATH)
+session.dump(acumos_model, MODEL_PATH, '.')
 # session.push(model, MODEL_PATH) # usable with active credentials
-print('Acumos %s created' % MODEL_PATH)
+print('Acumos %s saved' % MODEL_PATH)
 
 
-@app.route('/hello')
-def hello_world():
-    return 'Hello, World!'
+# ### Sanity Check
+# 
+# As a sanity check, we test Run the model on the existing training data (should be similar estimates for price).
 
-# Listen for conversation state change events.
-@app.route('/predict', methods=['POST'])
-def events():
-    raw_data = request.data
-    data = json.loads(raw_data)
-    print('payload', data)
-    
-    house_data = HouseDataFrame(data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
-                        data['lot_size'], data['hoa'], data['dom'], data['location'], data['state'], data['city'])
-    result = acumos_model.appraise.inner(house_data)[0]
-    print('prediction', result)
-    return jsonify({'prediction': '$%.2f' % result})
+# In[35]:
 
-# df = HouseDataFrame(1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
-sample_data = HouseDataFrame(1, 1, 2700, 'Other', 2000, 1000, 
+
+redfin.train_model()
+results = redfin.model.predict(redfin.X)
+n = 50
+for pair in list(zip(list(redfin.y[:n]), results[:n])):
+    print("Actual: $%.2f, Predicted: $%.2f" % (pair[0], pair[1]))
+
+
+
+# Reasonable
+
+# In[48]:
+
+
+# Example usage externally, invoke the acumos_model object from within your server.
+
+df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
-res1 = acumos_model.appraise.inner(sample_data)[0]
-print('test prediction $%.2f' % res1)
 
-if __name__ == '__main__':
-      app.run(port=PORT)
+# df = HouseDataFrame([1], [1], [1000], ['Other'], [2000], [1000], 
+#                     [1000], [10], ['Malden'], ['MA'], ['Boston'])
+
+res = pd.DataFrame([df], columns=HouseDataFrame._fields)
+acumos_model.appraise.inner(df)
+print("$%.2f" % predict(res)[0])
+

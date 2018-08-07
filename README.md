@@ -1,5 +1,5 @@
 <p align="center" style="margin-bottom: 35px; margin-top: 10px;">
-    <img src="assets/assistant_logo.png" width="300"/>
+    <img src="img/assistant_logo.png" width="300"/>
 </p>
 
 Acumos Property Assistant
@@ -67,25 +67,25 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 
 #### Full Correlation (All property features and locations/cities).
 <p align="center">
-    <img src="assets/full_corr.png" width="500"/>
+    <img src="img/full_corr.png" width="500"/>
 </p>
 
 
 #### Partial Correlation (Quantitative metrics only)
 <p align="center">
-    <img src="assets/partial_corr.png" width="500"/>
+    <img src="img/partial_corr.png" width="500"/>
 </p>
 
 
 #### Running the Model
 <p align="center">
-    <img src="assets/model_prediction.png" width="500"/>
+    <img src="img/model_prediction.png" width="500"/>
 </p>
 
 ### Deployment
 
 <p align="center">
-    <img src="assets/website.png" width="500"/>
+    <img src="img/website.png" width="500"/>
 </p>
 
 A sample web app is contained within the folder `acumos-assistant`. This app uses the live model to return a price assessment
@@ -108,18 +108,18 @@ The Acumos Property Assistant is contained and can be exported for use in any pr
 I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies and run this on the command line via `python3 server.py`.
 
 <p align="center">
-    <img src="assets/flask.png" width="500"/>
+    <img src="img/flask.png" width="500"/>
 </p>
 
 You can query the model via a standard post request.
 
 <p align="center">
-    <img src="assets/response.png" width="500"/>
+    <img src="img/response.png" width="500"/>
 </p>
 
 You now have a live server hosting and running the Acumos Property Assistant! You can use this to get property values in any live app!
 <p align="center">
-    <img src="assets/applause.jpg" width="500"/>
+    <img src="img/applause.jpg" width="500"/>
 </p>
 
 #### Running in docker
@@ -127,7 +127,7 @@ You now have a live server hosting and running the Acumos Property Assistant! Yo
 This container is also usable via docker by downloading the tar file from the Acumos community.
 
 <p align="center">
-    <img src="assets/download.png" width="500"/>
+    <img src="img/download.png" width="500"/>
 </p>
 
 <pre>
@@ -144,8 +144,8 @@ Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-ch
 #### Project Details
 - [x] Written description of the Submission (must be in English)
 - [x] Summary Video (Must be in English) = https://www.youtube.com/watch?v=pAmsND677A8
-- [x] Sample input dataset - `assets/test_data.csv`
-- [x] Sample dataset produced by the Submission - `assets/active_predictions.csv`
+- [x] Sample input dataset - `img/test_data.csv`
+- [x] Sample dataset produced by the Submission - `img/active_predictions.csv`
 - [x] Sample application for testing the Submission - Run the ipynb or deployed Acumos model
 - [x] Documentation (“Documentation”) explaining how to deploy the Submission,
 how to deploy the demonstration of the Submission, and all supporting toolkits
