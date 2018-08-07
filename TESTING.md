@@ -9,7 +9,9 @@ Two ways of testing:
 
 ### Running the model locally on a static csv input.
 
-The python notebook (ipynb) has been converted to a executable python file and will generate the test predictions for the full csv file.
+The python notebook (ipynb) has been converted to a executable python file and will generate the test predictions for the full csv file. 
+
+This program will train off the housing data in `assets/redfin_2018_8_boston.csv`, and evaluate the test data (currently listed properties) contained in `assets/test_data.csv`.
 
 <pre>
     pip3 install -r requirements.txt # or via pipenv
