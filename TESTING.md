@@ -36,4 +36,3 @@ Start the application.
     yarn && yarn start
 </pre>
 
-The model currently retrains on each submission for the web demo. Recommend removing this (and having it pretrained) in production.
