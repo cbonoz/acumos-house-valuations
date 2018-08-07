@@ -18,18 +18,22 @@ This program will train off the housing data in `assets/redfin_2018_8_boston.csv
     python3 acumos_property_assistant.py
 </pre>
 
-The results should now be in the file `assets/active_predictions.csv`.
+The predictions for the test data should now be in the file `assets/active_predictions.csv`.
 
 ### Running the model as a application/server.
 
 Start the web server from the root folder.
+
 <pre>
     pip3 install -r requirements.txt # or via pipenv
     python3 server.py
 </pre>
 
 Start the application.
+
 <pre>
     cd acumos-assistant
     yarn && yarn start
 </pre>
+
+The model currently retrains on each submission for the web demo. Recommend removing this (and having it pretrained) in production.
