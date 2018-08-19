@@ -27,6 +27,7 @@ import shutil
 import numpy as np
 import scipy as sp
 import matplotlib as mp
+mp.use('TkAgg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -60,15 +61,12 @@ from acumos.session import AcumosSession
 #                         auth_api="https://acumos-challenge.org/onboarding-app/v2/auth")
 session = AcumosSession()
 
-print('done')
-
-
 # In[13]:
 
-
-REDFIN_TRAIN_CSV = os.path.join("assets","redfin_2018_8_boston.csv")
+# Retrain with custom data sets if desired.
+REDFIN_TRAIN_CSV = os.path.join("assets", "redfin_2018_8_boston.csv")
 REDFIN_TEST_CSV = os.path.join("assets", "redfin_2018_active_boston.csv")
-
+print('starting test demo')
 
 # In[14]:
 
@@ -482,18 +480,18 @@ for pair in list(zip(list(redfin.y[:n]), results[:n])):
 
 # Reasonable
 
-# In[48]:
-
-
 # Example usage externally, invoke the acumos_model object from within your server.
 
 df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
 
+df2 = HouseDataFrame(1, 3, 1400, 'Other', 2000, 1000, 
+                    1000, 10, 'Malden', 'MA', 'Boston')
+
 # df = HouseDataFrame([1], [1], [1000], ['Other'], [2000], [1000], 
 #                     [1000], [10], ['Malden'], ['MA'], ['Boston'])
 
-res = pd.DataFrame([df], columns=HouseDataFrame._fields)
+res = pd.DataFrame([df, df2], columns=HouseDataFrame._fields)
 acumos_model.appraise.inner(df)
-print("$%.2f" % predict(res)[0])
+print("Example predictions: $%s" % predict(res))
 

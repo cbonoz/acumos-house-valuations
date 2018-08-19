@@ -91,7 +91,7 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 A sample web app is contained within the folder `acumos-assistant`. This app uses the live model to return a price assessment
 of the user's property based on the provided values.
 
-The model is encapsulated within the acumos_model picked object.
+The model is encapsulated within the acumos_model pickled object.
 
 <pre>
     df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
@@ -104,8 +104,10 @@ The model is encapsulated within the acumos_model picked object.
 
 </pre>
 
+<b>Before starting, it's recommended that you are running python 3.6. This was tested using a python3.6 environment.</b>
+
 The Acumos Property Assistant is contained and can be exported for use in any project.
-I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies (ex: `pip3 install -r requirements.txt`) and run this on the command line via `python3 server.py`.
+I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies (ex: `pip install -r requirements.txt`) and run this on the command line via `python server.py`.
 
 The model currently retrains on each submission for the web demo. Recommend pretraining in production.
 

@@ -3,7 +3,6 @@ import shutil
 
 import numpy as np
 import scipy as sp
-import seaborn as sns
 import pandas as pd
 import math
 
@@ -162,23 +161,7 @@ class RedfinAcumosModel:
         for c in RedfinAcumosModel.ENCODED_COLS:
             data[c] = self.encoders[c].inverse_transform(data[c])
         return data
-    
-    def cat_correlation(self, category, transform_func=None):
-        cat = self.df[category]
-        if transform_func:
-            cat = cat.apply(lambda x: transform_func(x))
-        cat_df = pd.get_dummies(cat).join(self.df['price']).astype(int)
-        if 'nan' in cat_df.columns.values:
-            del cat_df['nan']
-        levels =  len(cat_df.columns.values)
-        if levels > 60:
-            print('%s: too many unique categories %d' % (category, levels))
-            return cat_df
-        corr = cat_df.corr()
-        plt.figure(figsize=(16, 16))
-        sns.heatmap(corr, vmax=1, square=True)
-        return cat_df
-    
+  
     def match_train(self, test_df):
         # Merge test cols with train_cols
         test_cols = set(test_df.columns.values)
