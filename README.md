@@ -64,9 +64,18 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 
 The model is encapsulated within the acumos_model pickled object. It can be invoked via the following syntax:
 
-<p align="center">
-    <img src="img/acumos_usage.png" width="500"/>
-</p>
+<pre>
+    # Example appraise usage externally, invoke the acumos_model object from your server.
+
+    df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 
+                        1000, 10, 'Malden', 'MA', 'Boston')
+
+    res = acumos_model.appraise.inner(df)
+    print("$%s" % res)
+
+    ### OUTPUT
+    $[ 789185.58]
+</pre>
 
 ## Correlations of Property Features
 
