@@ -62,6 +62,11 @@ See `test_data.csv` for an example input, and `predictions.csv` for the example 
 
 The model on Acumos is currently trained on Boston housing data over the last 3 months, but could easily be retrained to other cities and locations.
 
+The model is encapsulated within the acumos_model pickled object. It can be invoked via the following syntax:
+
+<p align="center">
+    <img src="img/acumos_usage.png" width="500"/>
+</p>
 
 ## Correlations of Property Features
 
@@ -75,7 +80,6 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 <p align="center">
     <img src="img/partial_corr.png" width="500"/>
 </p>
-
 
 #### Running the Model
 <p align="center">
@@ -91,18 +95,12 @@ The model on Acumos is currently trained on Boston housing data over the last 3 
 A sample web app is contained within the folder `acumos-assistant`. This app uses the live model to return a price assessment
 of the user's property based on the provided values.
 
-The model is encapsulated within the acumos_model pickled object.
-
-<p align="center">
-    <img src="img/acumos_usage.png" width="500"/>
-</p>
-
 <b>Before starting, it's recommended that you are running python 3.6. This was tested using a python3.6 environment.</b>
 
 The Acumos Property Assistant is contained and can be exported for use in any project.
 I have configured a live example server that you can run in the file `server.py`. Simply install the dependencies (ex: `pip install -r requirements.txt`) and run this on the command line via `python server.py`.
 
-The model currently retrains on each submission for the web demo. Recommend pretraining in production.
+The model currently retrains on each submission for the web demo. Training should be done before server start in production.
 
 <p align="center">
     <img src="img/flask.png" width="500"/>
@@ -133,7 +131,7 @@ This container is also usable via docker by downloading the tar file from the Ac
     docker run -p 3330:3330 -p 3001:3001 {CONTAINER_ID}
 </pre>
 
-This will now expose the port for invocation with the named tuple via the `appraise` method on port 3330, as well as the flask server (launchable via `python3 server.py`)
+This will now expose the port for invocation with the named tuple via the `appraise` method on port 3330, as well as the flask server (launchable via `python server.py`)
 on port 3001 once dependencies installed in the container.
 
 Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-challenge-getting-started.html
