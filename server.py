@@ -241,13 +241,6 @@ df = redfin.process_data(train, True)
 redfin.df = df
 redfin.df.info()
 
-def appraise(data: HouseDataFrame) -> List[float]:
-    return appraise_multiple([data])
-
-def appraise_multiple(data: List[HouseDataFrame]) -> List[float]:
-    res = pd.DataFrame(data, columns=HouseDataFrame._fields)
-    return predict(res)
-
 def predict(data):
     test_df = redfin.process_data(data)
     # Train by merging locations/columns found in the train dataframe.
@@ -255,6 +248,13 @@ def predict(data):
     redfin.train_model()
     # print('Using %d Calculated Features for Valuation' % len(test_df.columns.values))
     return redfin.model.predict(test_df)
+
+def appraise_multiple(data: List[HouseDataFrame]) -> List[float]:
+    res = pd.DataFrame(data, columns=HouseDataFrame._fields)
+    return predict(res)
+
+def appraise(data: HouseDataFrame) -> List[float]:
+    return appraise_multiple([data])
 
 acumos_model = Model(appraise=appraise)
 # session.push(model, MODEL_PATH) # usable with active credentials
