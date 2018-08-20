@@ -77,15 +77,6 @@ REDFIN_TEST_CSV = os.path.join("assets", "redfin_2018_active_boston.csv")
 
 def rename_col(x):
     return x.lower().replace(' ', '_').replace('$', 'cost').replace('/', '_per_')
-
-
-# ### Main Redfin Acumos Model
-# 
-# Using recently sold properties to predict current property values, includes qualitative (encoded) and quantitative metrics.
-
-# In[21]:
-
-
 class RedfinAcumosModel:
     URL_COL = 'URL (SEE http://www.redfin.com/buy-a-home/comparative-market-analysis FOR INFO ON PRICING)'
     DROP_COLS = list(map(rename_col, [URL_COL, 'NEXT OPEN HOUSE START TIME', 'FAVORITE', 'INTERESTED', 'ZIP', 'SALE TYPE',
@@ -102,8 +93,8 @@ class RedfinAcumosModel:
         
 
     def get_formatted_test_cols(self, data):
-        data_cols = set(data.columns.values)
-        model_cols = list(data_cols - set(self.DROP_COLS))
+        data_cols = list(data.columns.values)
+        model_cols = list(filter(lambda x: x not in set(self.DROP_COLS), data_cols))
         
         df_num = data.select_dtypes(exclude=[np.number])
         raw_cols = list(df_num.columns.values)
@@ -111,7 +102,7 @@ class RedfinAcumosModel:
         model_cols = list(map(rename_col, model_cols))
         model_cols.remove('price')
         
-        dtypes = list(map(lambda x: "str" if x in raw_cols else "%s" % str(data[x].dtype)[:-2], data))
+        dtypes = list(map(lambda x: "str" if x in raw_cols else "%s" % str(data[x].dtype)[:-2], model_cols))
         zipped_cols = list(zip(model_cols, dtypes))
         res = str(zipped_cols).replace("'List", "List").replace("]'", "]")
         return res
@@ -265,10 +256,6 @@ def reformat_test_data(data):
     return data
 
 
-# In[22]:
-
-
-
 train = reformat_train_data(pd.read_csv(REDFIN_TRAIN_CSV))
 train_cols = train.columns.values
 print(train_cols)
@@ -299,17 +286,15 @@ print(model_cols)
 
 # In[25]:
 
-
 # items is the model_cols list from the previous slide
-items = [('baths', str), ('beds', str), ('square_feet', str), ('property_type', float), ('year_built', float), 
-         ('lot_size', float), ('hoa_per_month', str), ('days_on_market', float), ('location', float), ('state', float), ('city', float)]
+items = [('baths', float), ('beds', float), ('square_feet', float), ('property_type', str), ('year_built', float), 
+         ('lot_size', float), ('hoa_per_month', float), ('days_on_market', float), ('location', str), ('state', str), ('city', str)]
 
 HouseDataFrame = create_namedtuple('HouseDataFrame', items)
 
 # here, an appropriate NamedTuple type is inferred from a pandas DataFrame
 # HouseDataFrame = create_dataframe('HouseDataFrame', X_df)
 print(HouseDataFrame.__doc__)
-
 
 # In[26]:
 

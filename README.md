@@ -26,17 +26,17 @@ The appraise model can accept <b>One</b> or a <b>List</b> of `HouseDataFrame` ob
 <pre>
 # HouseDataFrame
 [
-    ('baths', str), 
-    ('beds', str), 
+    ('baths', float), 
+    ('beds', float), 
     ('square_feet', float), 
-    ('property_type', float), 
+    ('property_type', str), 
     ('year_built', float), 
-    ('lot_size', str), 
+    ('lot_size', float), 
     ('hoa_per_month', float), 
     ('days_on_market', float), 
-    ('location', float), 
-    ('state', float), 
-    ('city', float)
+    ('location', str), 
+    ('state', str), 
+    ('city', str)
 ]
 </pre>
 

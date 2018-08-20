@@ -227,10 +227,9 @@ redfin = RedfinAcumosModel()
 model_cols = redfin.get_formatted_test_cols(train)
 print(model_cols)
 
-# print(len(model_cols))
 # items is the model_cols list from the previous slide
-items = [('baths', str), ('beds', str), ('square_feet', str), ('property_type', float), ('year_built', float), 
-         ('lot_size', float), ('hoa_per_month', str), ('days_on_market', float), ('location', float), ('state', float), ('city', float)]
+items = [('baths', float), ('beds', float), ('square_feet', float), ('property_type', str), ('year_built', float), 
+         ('lot_size', float), ('hoa_per_month', float), ('days_on_market', float), ('location', str), ('state', str), ('city', str)]
 
 HouseDataFrame = create_namedtuple('HouseDataFrame', items)
 
