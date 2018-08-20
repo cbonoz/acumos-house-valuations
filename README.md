@@ -131,7 +131,7 @@ This container is also usable via docker by downloading the tar file from the Ac
     docker run -p 3330:3330 -p 3001:3001 {CONTAINER_ID}
 </pre>
 
-This will now expose the port for invocation with the named tuple via the `appraise` method on port 3330, as well as the flask server (launchable via `python server.py`)
+This will now expose the port for invocation with the named tuple via the `appraise` methods on port 3330, as well as the flask server (launchable via `python server.py`)
 on port 3001 once dependencies installed in the container.
 
 Documented here: https://docs.acumos.org/en/latest/AcumosUser/portal-user/dev-challenge-getting-started.html

@@ -243,7 +243,10 @@ redfin.df = df
 redfin.df.info()
 
 def appraise(data: HouseDataFrame) -> List[float]:
-    res = pd.DataFrame([data], columns=HouseDataFrame._fields)
+    return appraise_multiple([data])
+
+def appraise_multiple(data: List[HouseDataFrame]) -> List[float]:
+    res = pd.DataFrame(data, columns=HouseDataFrame._fields)
     return predict(res)
 
 def predict(data):
@@ -258,7 +261,6 @@ acumos_model = Model(appraise=appraise)
 # session.push(model, MODEL_PATH) # usable with active credentials
 print('Acumos %s created' % MODEL_PATH)
 
-
 @app.route('/hello')
 def hello_world():
     return 'Hello, World!'
@@ -270,16 +272,17 @@ def events():
     data = json.loads(raw_data)
     print('payload', data)
     
-    house_data = HouseDataFrame(data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
+    house = HouseDataFrame(data['baths'], data['beds'], data['sf'], data['prop_type'], data['year_built'],
                         data['lot_size'], data['hoa'], data['dom'], data['location'], data['state'], data['city'])
-    result = acumos_model.appraise.inner(house_data)[0]
+    
+    result = acumos_model.appraise.inner(house)[0]
     print('prediction', result)
     return jsonify({'prediction': '$%.2f' % result})
 
 # df = HouseDataFrame(1, 2, 2000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
-sample_data = HouseDataFrame(1, 1, 2700, 'Other', 2000, 1000, 
+sample_house = HouseDataFrame(1, 1, 2700, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
-res1 = acumos_model.appraise.inner(sample_data)[0]
+res1 = acumos_model.appraise.inner(sample_house)[0]
 print('test prediction $%.2f' % res1)
 
 if __name__ == '__main__':
