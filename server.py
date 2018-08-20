@@ -78,7 +78,7 @@ class RedfinAcumosModel:
         model_cols = list(map(rename_col, model_cols))
         model_cols.remove('price')
         
-        dtypes = list(map(lambda x: "List[str]" if x in raw_cols else "List[%s]" % str(data[x].dtype)[:-2], data))
+        dtypes = list(map(lambda x: "str" if x in raw_cols else "%s" % str(data[x].dtype)[:-2], data))
         zipped_cols = list(zip(model_cols, dtypes))
         res = str(zipped_cols).replace("'List", "List").replace("]'", "]")
         return res
@@ -226,13 +226,13 @@ redfin = RedfinAcumosModel()
 
 model_cols = redfin.get_formatted_test_cols(train)
 print(model_cols)
-# print(len(model_cols))
 
+# print(len(model_cols))
 # items is the model_cols list from the previous slide
-items = [('baths', List[str]), ('beds', List[str]), ('square_feet', List[str]), ('property_type', List[float]), ('year_built', List[float]), ('lot_size', List[float]), ('hoa_per_month', List[str]), ('days_on_market', List[float]), ('location', List[float]), ('state', List[float]), ('city', List[float])]
+items = [('baths', str), ('beds', str), ('square_feet', str), ('property_type', float), ('year_built', float), 
+         ('lot_size', float), ('hoa_per_month', str), ('days_on_market', float), ('location', float), ('state', float), ('city', float)]
 
 HouseDataFrame = create_namedtuple('HouseDataFrame', items)
-
 
 # here, an appropriate NamedTuple type is inferred from a pandas DataFrame
 # HouseDataFrame = create_dataframe('HouseDataFrame', X_df)

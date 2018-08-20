@@ -21,9 +21,10 @@ By no means is this an exhaustive model, but should give users as idea of what t
 
 ## Usage
 
-The model expects a list of properties to predict on - containing the following fields:
+The appraise model can accept one or a <b>list</b> of HouseDataFrame objects to predict on - each containing the following fields:
 
 <pre>
+# HouseDataFrame
 [
     ('baths', str), 
     ('beds', str), 
