@@ -18,7 +18,7 @@
 # 
 # 
 
-# In[12]:
+# In[18]:
 
 
 import os
@@ -53,6 +53,7 @@ user = os.environ['ACUMOS_USERNAME']
 MODEL_PATH = "Acumos Property Assistant"
 
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
+mp.use('TkAgg')
 
 from acumos.modeling import Model, List, Dict, create_namedtuple, create_dataframe
 from acumos.session import AcumosSession
@@ -61,14 +62,17 @@ from acumos.session import AcumosSession
 #                         auth_api="https://acumos-challenge.org/onboarding-app/v2/auth")
 session = AcumosSession()
 
-# In[13]:
+print('done')
 
-# Retrain with custom data sets if desired.
-REDFIN_TRAIN_CSV = os.path.join("assets", "redfin_2018_8_boston.csv")
+
+# In[19]:
+
+
+REDFIN_TRAIN_CSV = os.path.join("assets","redfin_2018_8_boston.csv")
 REDFIN_TEST_CSV = os.path.join("assets", "redfin_2018_active_boston.csv")
-print('starting test demo')
 
-# In[14]:
+
+# In[20]:
 
 
 def rename_col(x):
@@ -79,7 +83,7 @@ def rename_col(x):
 # 
 # Using recently sold properties to predict current property values, includes qualitative (encoded) and quantitative metrics.
 
-# In[15]:
+# In[21]:
 
 
 class RedfinAcumosModel:
@@ -107,7 +111,7 @@ class RedfinAcumosModel:
         model_cols = list(map(rename_col, model_cols))
         model_cols.remove('price')
         
-        dtypes = list(map(lambda x: "List[str]" if x in raw_cols else "List[%s]" % str(data[x].dtype)[:-2], data))
+        dtypes = list(map(lambda x: "str" if x in raw_cols else "%s" % str(data[x].dtype)[:-2], data))
         zipped_cols = list(zip(model_cols, dtypes))
         res = str(zipped_cols).replace("'List", "List").replace("]'", "]")
         return res
@@ -261,7 +265,7 @@ def reformat_test_data(data):
     return data
 
 
-# In[16]:
+# In[22]:
 
 
 
@@ -275,13 +279,13 @@ np.set_printoptions(suppress=True) #remove scientific notation
 
 # This is the list of core property types as used by Redfin
 
-# In[17]:
+# In[23]:
 
 
 set(train['property_type'])
 
 
-# In[18]:
+# In[24]:
 
 
 redfin = RedfinAcumosModel()
@@ -291,24 +295,23 @@ print(model_cols)
 # print(len(model_cols))
 
 
-
 # ### These are the required dataframe input arguments for the model.
 
-# In[19]:
+# In[25]:
 
 
 # items is the model_cols list from the previous slide
-items = [('baths', List[str]), ('beds', List[str]), ('square_feet', List[str]), ('property_type', List[float]), ('year_built', List[float]), ('lot_size', List[float]), ('hoa_per_month', List[str]), ('days_on_market', List[float]), ('location', List[float]), ('state', List[float]), ('city', List[float])]
+items = [('baths', str), ('beds', str), ('square_feet', str), ('property_type', float), ('year_built', float), 
+         ('lot_size', float), ('hoa_per_month', str), ('days_on_market', float), ('location', float), ('state', float), ('city', float)]
 
 HouseDataFrame = create_namedtuple('HouseDataFrame', items)
-
 
 # here, an appropriate NamedTuple type is inferred from a pandas DataFrame
 # HouseDataFrame = create_dataframe('HouseDataFrame', X_df)
 print(HouseDataFrame.__doc__)
 
 
-# In[20]:
+# In[26]:
 
 
 df = redfin.process_data(train, True)
@@ -318,56 +321,12 @@ redfin.df.info()
 # These are the list of actual encoded columns to be used in the model
 
 
-# In[21]:
-
-
-# redfin.y.describe()
-
-
-# In[ ]:
-
-
-
-
-
-# In[22]:
-
-
-corr = df.corr()
-plt.figure(figsize=(16, 9))
-sns.heatmap(corr, vmax=1, square=True)
-
-
-# In[23]:
-
-
-# Reduced correlation
-location_cols = filter(lambda x: "location" in x or 'city' in x, df.columns.values)
-reduced_df = df.drop(location_cols, axis=1)
-corr = reduced_df.corr()
-plt.figure(figsize=(16, 9))
-sns.heatmap(corr, vmax=1, square=True)
-
-# State variable would become relevant if we ran this home valuation on a state border. In this model, we keep the region local.
-
-
-# In[24]:
-
-
-# IrisDataFrame = create_namedtuple('IrisDataFrame', [('sepal_length', List[str])])
-
-# predict(redfin.X)
-
-
-# In[25]:
-
-
 raw_test_df = pd.read_csv(REDFIN_TEST_CSV)
 test_data = reformat_test_data(raw_test_df)
 print(test_data.info())
 
 
-# In[26]:
+# In[32]:
 
 
 # raw_test_df[raw_cols] = raw_test_df[raw_cols].astype(str)
@@ -379,11 +338,14 @@ print(test_data.info())
 
 
 
-# In[27]:
+# In[33]:
 
 
 def appraise(data: HouseDataFrame) -> List[float]:
-    res = pd.DataFrame([data], columns=HouseDataFrame._fields)
+    return appraise_multiple([data])
+
+def appraise_multiple(data: List[HouseDataFrame]) -> List[float]:
+    res = pd.DataFrame(data, columns=HouseDataFrame._fields)
     return predict(res)
 
 def predict(data):
@@ -395,7 +357,7 @@ def predict(data):
     return redfin.model.predict(test_df)
 
 
-# In[28]:
+# In[34]:
 
 
 # results = predict(test_data)
@@ -405,7 +367,7 @@ print(acumos_test_data.columns.values)
 results = predict(acumos_test_data)
 
 
-# In[29]:
+# In[35]:
 
 
 result_df = pd.DataFrame()
@@ -424,26 +386,26 @@ result_df.to_csv('assets/active_predictions.csv')
 print('write predictions to csv')
 
 
-# In[30]:
+# In[36]:
 
 
 raw_test_df['predicted'] = results
 
 
-# In[31]:
+# In[37]:
 
 
 print(model_cols)
 
 
-# In[32]:
+# In[38]:
 
 
 # print(redfin.X.columns.values)
 print(results)
 
 
-# In[33]:
+# In[39]:
 
 
 cols = list(filter(lambda x: 'property' not in x and 'location' not in x and 'city' not in x, redfin.X.columns.values))
@@ -452,10 +414,10 @@ cols = list(filter(lambda x: 'property' not in x and 'location' not in x and 'ci
 print(cols)
 
 
-# In[34]:
+# In[40]:
 
 
-acumos_model = Model(appraise=appraise)
+acumos_model = Model(appraise=appraise, appraise_multiple=appraise_multiple)
 if os.path.isdir(MODEL_PATH):
     shutil.rmtree(MODEL_PATH)
 session.dump(acumos_model, MODEL_PATH, '.')
@@ -467,31 +429,53 @@ print('Acumos %s saved' % MODEL_PATH)
 # 
 # As a sanity check, we test Run the model on the existing training data (should be similar estimates for price).
 
-# In[35]:
+# In[41]:
 
 
 redfin.train_model()
 results = redfin.model.predict(redfin.X)
 n = 50
-for pair in list(zip(list(redfin.y[:n]), results[:n])):
+zipped_data = list(zip(list(redfin.y[:n]), results[:n]))
+for pair in zipped_data:
     print("Actual: $%.2f, Predicted: $%.2f" % (pair[0], pair[1]))
 
 
+# In[42]:
 
-# Reasonable
 
-# Example usage externally, invoke the acumos_model object from within your server.
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+
+rms = sqrt(mean_squared_error(redfin.y, results))
+rms
+
+# Reasonable, considering many homes can be in the 1M+ range.
+
+# In[43]:
+
+
+# Example appraise usage externally, invoke the acumos_model object from your server.
+
+df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 
+                    1000, 10, 'Malden', 'MA', 'Boston')
+
+res = acumos_model.appraise.inner(df)
+print("$%s" % res)
+
+# In[44]:
+
+# Example appraise multiple usage externally, invoke the acumos_model object from your server.
 
 df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
 
 df2 = HouseDataFrame(1, 3, 1400, 'Other', 2000, 1000, 
                     1000, 10, 'Malden', 'MA', 'Boston')
+ex_data = [df, df2]
 
-# df = HouseDataFrame([1], [1], [1000], ['Other'], [2000], [1000], 
-#                     [1000], [10], ['Malden'], ['MA'], ['Boston'])
+# In[45]:
 
-res = pd.DataFrame([df, df2], columns=HouseDataFrame._fields)
-acumos_model.appraise.inner(df)
-print("Example predictions: $%s" % predict(res))
+
+res = acumos_model.appraise_multiple.inner(ex_data)
+print("$%s" % res)
 
