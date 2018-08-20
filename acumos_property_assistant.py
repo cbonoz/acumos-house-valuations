@@ -62,7 +62,7 @@ from acumos.session import AcumosSession
 #                         auth_api="https://acumos-challenge.org/onboarding-app/v2/auth")
 session = AcumosSession()
 
-print('done')
+print('starting demo')
 
 
 # In[19]:
