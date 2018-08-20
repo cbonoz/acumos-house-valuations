@@ -25,7 +25,7 @@ The model expects a list of properties to predict on - containing the following 
 
 <pre>
 [
-    ('baths', str]), 
+    ('baths', str), 
     ('beds', str), 
     ('square_feet', float), 
     ('property_type', float), 
