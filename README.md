@@ -21,21 +21,21 @@ By no means is this an exhaustive model, but should give users as idea of what t
 
 ## Usage
 
-The model expects a dataframe of properties (containing the following list of entries) in the following format:
+The model expects a list of properties to predict on - containing the following fields:
 
 <pre>
 [
-    ('baths', List[str]), 
-    ('beds', List[str]), 
-    ('square_feet', List[float]), 
-    ('property_type', List[float]), 
-    ('year_built', List[float]), 
-    ('lot_size', List[str]), 
-    ('hoa_per_month', List[float]), 
-    ('days_on_market', List[float]), 
-    ('location', List[float]), 
-    ('state', List[float]), 
-    ('city', List[float])
+    ('baths', str]), 
+    ('beds', str), 
+    ('square_feet', float), 
+    ('property_type', float), 
+    ('year_built', float), 
+    ('lot_size', str), 
+    ('hoa_per_month', float), 
+    ('days_on_market', float), 
+    ('location', float), 
+    ('state', float), 
+    ('city', float)
 ]
 </pre>
 
@@ -93,16 +93,9 @@ of the user's property based on the provided values.
 
 The model is encapsulated within the acumos_model pickled object.
 
-<pre>
-    df = HouseDataFrame(1, 1, 1000, 'Other', 2000, 1000, 1000, 10, 'Malden', 'MA', 'Boston')
-    res = pd.DataFrame([df], columns=HouseDataFrame._fields)
-    acumos_model.appraise.inner(df)
-    print("$%.2f" % predict(res)[0])
-
-    # Output:
-    $421995.04
-
-</pre>
+<p align="center">
+    <img src="img/acumos_usage.png" width="500"/>
+</p>
 
 <b>Before starting, it's recommended that you are running python 3.6. This was tested using a python3.6 environment.</b>
 
