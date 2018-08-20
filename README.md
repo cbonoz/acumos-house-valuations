@@ -21,7 +21,7 @@ By no means is this an exhaustive model, but should give users as idea of what t
 
 ## Usage
 
-The appraise model can accept one or a <b>list</b> of HouseDataFrame objects to predict on - each containing the following fields:
+The appraise model can accept <b>One</b> or a <b>List</b> of `HouseDataFrame` objects below to predict on - each containing the following fields:
 
 <pre>
 # HouseDataFrame
